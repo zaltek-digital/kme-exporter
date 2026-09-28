@@ -1,0 +1,11 @@
+# Normalise line endings so checked-out files behave identically on Windows and
+# Unix. Text files use LF in the repo; binaries are left untouched.
+
+* text=auto eol=lf
+
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.zip   binary
+*.svg   text eol=lf
