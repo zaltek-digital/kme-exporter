@@ -1,0 +1,90 @@
+{
+    "source_id": 2468,
+    "type": "page",
+    "status": "publish",
+    "slug": "why-and-how-we-monitor-kme",
+    "title": "Why and how we monitor KME",
+    "parent": null,
+    "menu_order": 0,
+    "url_path": "/why-and-how-we-monitor-kme/",
+    "link": "https://kme.test/why-and-how-we-monitor-kme/",
+    "template": "",
+    "content_raw": "",
+    "excerpt": "",
+    "date_gmt": "2024-11-20T12:55:59+00:00",
+    "modified_gmt": "2026-02-25T11:12:02+00:00",
+    "author": {
+        "login": "author-2",
+        "email": "author-2@example.invalid"
+    },
+    "featured_media": null,
+    "attachments": [],
+    "meta": {},
+    "acf": {
+        "blocks": [
+            {
+                "type": "text",
+                "block_title": "",
+                "appearance": "cards",
+                "layout": "3over4",
+                "automatic_navigation": "1",
+                "text": "<h2>Why we monitor key molecules expenditure</h2>\r\nWe monitor a variety of metrics and markers of expenditure for key molecules of interest. We do this to identify opportunities through which individual organisations and regions can improve their adoption of best-value medicines. Our aim is to support individual organisations and regions in their prioritisation of resources to enable them to realise savings. Optimisation of expenditure expands patient access to life-saving and life-enhancing treatments.\r\n<h2>About our data</h2>\r\nThe charts presented are based on data extracted from <a href=\"https://www.rx-info.co.uk/products/define/\">Rx-Info's Define product</a>. Any unusual or unexpected patterns are most likely due to underlying data quality or accuracy issues. If you notice anomalies affecting your Trust or region, we recommend reviewing the source data within your pharmacy system and refreshing it as needed. Updates made will be reflected in the next monthly data refresh.\r\n\r\nWe take monthly versions of Define's data from which we refresh existing charts and metrics or create new reports each month as necessary.\r\n<h2>Date definitions in this tool</h2>\r\nOn each page, you'll find a number of terms describing the timeliness of the data included in the charts shown.\r\n<h3>Date extracted</h3>\r\nDate extracted describes the date at which the data was extracted from Define for all of the charts shown on the page.\r\n<h3>Update date</h3>\r\nUpdate dates are the dates at which updates were made to the page. The nature of these is summarised for each update.\r\n<h3>Dates covered</h3>\r\nWithin the summary at the top of each page, you'll find the dates covered (as a range or date until) that the data in the charts on the page cover.\r\n<h2>Interpreting our charts</h2>\r\nWe report on a number of medicines at any time, with the list of these changing periodically. You can learn more about <a href=\"https://kmewp.sps.nhs.uk/about-the-medicines-we-include/\">the medicines we include and how we decide</a> what to include in a separate article. Details of the included medicines are also present in individual pages within charts.\r\n\r\nFor each medicine, and across different geographic groupings, we use different chart types and methods to help you visualise the data.\r\n<h3>Costs per defined daily doses charts</h3>\r\nThe Defined Daily Dose (DDD) is the average maintenance dose for a medicine for its main indication in adults. The World Health Organisation gives <a href=\"https://www.who.int/tools/atc-ddd-toolkit/about-ddd\">guidance on the generation of DDDs.</a> We have used their <a href=\"https://atcddd.fhi.no/atc_ddd_alterations__cumulative/ddd_alterations/\">listed individual DDDs for medicines</a>.\r\n\r\nThe defined daily dose is particularly useful when comparing medicines for which there are multiple presentations. This is because the DDD is independent of the presentations used. A cost per DDD can be calculated for a given medicine. If only one brand of medicine exists and all its variants are priced similarly, the cost per DDD will remain stable over time. When a more cost-effective generic or biosimilar product becomes available, then a fall in the cost per DDD will suggest that uptake of the new more cost-effective alternative is occuring. <span data-teams=\"true\">Other factors may also cause fluctuations in the cost per DDD over time. These include supply by VAT-exempt routes, use of free-of-charge stock, or multiple presentations being in use with a wide variation in ‘cost per mg’.</span>\r\n\r\nOur charts show the cost paid for each DDD and enable comparison for this marker across time and organisations. Our charts may show either a combined data line or an average data line. Combined data is the total cost divided by the total DDD; whilst average data is the total cost per DDD divided by the total number of organisations.\r\n<h3>Progress charts</h3>\r\nThe progress charts capture the extent of adoption for key molecule switches since contract start date. They enable comparison of switches for different molecules and across Trusts, ICSs and regions of England.\r\n\r\nThere are 3 categories: red, amber, and green. These are expressed as a RAG rating within the charts.\r\n<ul>\r\n \t<li style=\"list-style-type: none;\">\r\n<ul>\r\n \t<li>Red indicates adoption of between 0% and 20%</li>\r\n \t<li>Amber indicates adoption of between 21% and 80%</li>\r\n \t<li>Green indicates adoption of over 80%</li>\r\n</ul>\r\n</li>\r\n</ul>\r\nThe charts use the national baseline cost per DDD for the originator molecule and compare this to the potential cost per DDD available for a Trust for the same molecule. The cost per DDD available for a Trust will depend on local contract awards.\r\n\r\nThe charts use the most recent transaction data which is updated monthly. Where there have been no transactions at Trust level for that molecule in the last month, no colour is shown.\r\n<h3>Adoption curves</h3>\r\nEach biosimilar or key generic has a target adoption timeline, which is represented as a curve of percentage adoption against time. The percentage adoption any organisation achieves is plotted against the target adoption timeline. Organisations can compare their own adoption curves against the target curve to identify if potential savings exist within the expected timeline. We use local baseline data to ensure that adoption rates and savings estimate local patterns as precisely as possible.\r\n<h4>Defining adoption curves</h4>\r\nThere are 3 target adoption curves. They all have a target of 80% adoption, but the time expected to reach 80% varies, depending on complexity of the molecule.\r\n<h5>Simple molecules</h5>\r\nGeneric medicines with standard methods of supply, such as bosutinib. 80% target adoption should be met at 4 months.\r\n<h5>Moderately complex molecules</h5>\r\nGeneric medicines with supply via homecare, such as pomalidomide or biosimilar medicines with uncomplicated methods of supply, such as aflibercept. 80% target adoption should be met at 8 months.\r\n<h5>Highly complex molecules</h5>\r\nBiosimilar medicines requiring homecare supply, such as ustekinumab. 80% target adoption should be met at 10 months.\r\n\r\n<h4>Actual percentage adoption</h4>\r\n\r\nWe compare the actual amount spent for each organisation with what should have been spent at full discount were all the savings available to have been realised. This enables us to plot a continuous curve of percentage progress against an ideal S curve of adoption for the molecule over time.\r\n\r\n<h4>Monthly predicted savings</h4>\r\n\r\nMonthly predicted savings gives a value for the amount a Trust can save for a given molecule if it were to achieve the ideal S curve of adoption for a given month.\r\n\r\nWe calculate this using the following equation:\r\n\r\nPredicted Savings =\r\n\r\n(Baseline cost per DDD – Target cost per DDD)\r\n× DDDs for that month\r\n× Idealised % adoption from the Scurve\r\n\r\n<h4>Monthly projected savings</h4>\r\n\r\nMonthly projected savings are how much money the Trust is forecast to save in each individual month as adoption increases. The S curve gives us the % adoption month-by-month with a target to reach 80% by month x (with x dependent on the molecule’s complexity).\r\n\r\nTo calculate monthly projected savings, we take the savings per DDD by comparing baseline and target costs, multiply by the typical monthly usage (in another words, baseline monthly usage), and apply the expected adoption percentage for that month. As adoption grows, monthly savings grow.\r\n\r\n<h4>Maximum Monthly Savings (MMS)</h4>\r\n\r\nMaximum Monthly Savings shows the maximum amount a Trust could save per month once fully at 100%. This is used in our RAG table.\r\n\r\nDelivery against S-Curve = Actual savings – Monthly projected savings\r\n\r\nMaximum savings missed opportunity = Maximum Monthly Savings – Actual savings\r\n<h4>Regions</h4>\r\nRegional and national figures are derived by aggregating data from individual Trusts to provide a collective view of adoption and savings.\r\n<h3>Monthly costs charts</h3>\r\nMonthly costs is simply the total cost paid per month. Total cost does not enable comparison of the uptake of best value generics or biosimilars. We provide it to enable organisations to identify those molecules for which targeted implementation of alternatives may offer significant savings opportunities.\r\n<h3>Making sense of the Y axis</h3>\r\nThe Y-axis on some charts does not start at zero. This is to improve visualisation of differences and variations in the data, to make it easier to interpret trends and comparisons.\r\n<h3>Impact of shortages</h3>\r\nSwitching to the best value molecule is sometimes not possible due to supply problems affecting one of more contract regions. This may mean switching progress is limited or in some cases has had to be reversed. Any significant shortages will be flagged in the comments in the reports by molecule as well as in other charts.",
+                "pinned": false
+            }
+        ],
+        "change_history": [
+            {
+                "date": "20250710",
+                "description": "Section on Target savings charts added"
+            },
+            {
+                "date": "20251202",
+                "description": "Removal of missed opportunity sections.  "
+            },
+            {
+                "date": "20251202",
+                "description": "Target savings charts section renamed to adoption curves and updated accordingly. "
+            },
+            {
+                "date": "20260225",
+                "description": "Adoption cureve definitions refined and amended"
+            }
+        ],
+        "publish_date_hidden": "0",
+        "summary": "Learn about our key molecules expenditure data, the report types we offer, and the terminology we use.",
+        "summary_hidden": "0"
+    },
+    "terms": {},
+    "original_post_id": null,
+    "embeds": [],
+    "links": [],
+    "blocks_used": {},
+    "presets_used": [],
+    "rendered": {},
+    "revisions": [
+        {
+            "revision_id": 9233,
+            "date_gmt": "2026-02-25T11:08:58+00:00",
+            "author": {
+                "login": "author-2",
+                "email": "author-2@example.invalid"
+            },
+            "title": "Why and how we monitor KME",
+            "excerpt": "",
+            "content_raw": ""
+        },
+        {
+            "revision_id": 9234,
+            "date_gmt": "2026-02-25T11:12:02+00:00",
+            "author": {
+                "login": "author-2",
+                "email": "author-2@example.invalid"
+            },
+            "title": "Why and how we monitor KME",
+            "excerpt": "",
+            "content_raw": ""
+        }
+    ],
+    "archives": [],
+    "content_sha256": "227010af2a1f90fbbd92cb5c23e39ff801f02c80795187615c13bcb102641cbf"
+}

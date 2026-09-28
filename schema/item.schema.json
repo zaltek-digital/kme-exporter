@@ -1,0 +1,322 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/zaltek-digital/kme-exporter/schema/item.schema.json",
+  "title": "KME export item (items/{id}.json)",
+  "type": "object",
+  "required": [
+    "source_id",
+    "type",
+    "status",
+    "slug",
+    "title",
+    "parent",
+    "menu_order",
+    "url_path",
+    "link",
+    "template",
+    "content_raw",
+    "excerpt",
+    "date_gmt",
+    "modified_gmt",
+    "author",
+    "featured_media",
+    "attachments",
+    "meta",
+    "terms",
+    "embeds",
+    "links",
+    "blocks_used",
+    "rendered",
+    "revisions",
+    "content_sha256",
+    "acf",
+    "original_post_id",
+    "presets_used",
+    "archives"
+  ],
+  "properties": {
+    "source_id": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "The post ID on the KME site. SPS2 never reuses it as its own ID."
+    },
+    "type": {
+      "enum": [
+        "page",
+        "post",
+        "attachment"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "description": "publish, draft, pending, private or future for pages/posts; inherit for attachments."
+    },
+    "slug": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "parent": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "Source ID of the parent item, or null."
+    },
+    "menu_order": {
+      "type": "integer"
+    },
+    "url_path": {
+      "type": "string",
+      "description": "Path of the permalink on the KME site, e.g. /nintedanib/."
+    },
+    "link": {
+      "type": "string"
+    },
+    "template": {
+      "type": "string",
+      "description": "_wp_page_template value, e.g. page-templates/full-width.php, or empty for the default."
+    },
+    "content_raw": {
+      "type": "string",
+      "description": "Raw post_content: serialised Gutenberg block markup, exactly as stored."
+    },
+    "excerpt": {
+      "type": "string"
+    },
+    "date_gmt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "modified_gmt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "author": {
+      "$ref": "#/$defs/author_ref"
+    },
+    "featured_media": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "Source ID of the featured image attachment."
+    },
+    "attachments": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      },
+      "description": "Source IDs of child attachments."
+    },
+    "meta": {
+      "type": "object",
+      "description": "Post meta keyed by meta key. Values are always lists (a key can hold several rows). Non-protected keys plus _nhs_*, _members_*, _thumbnail_id, _wp_attachment_image_alt.",
+      "additionalProperties": {
+        "type": "array"
+      }
+    },
+    "acf": {
+      "type": "object",
+      "description": "ACF values by field name, unformatted: relationships are lists of source IDs, dates Ymd, wysiwyg the saved HTML; repeater rows keyed by sub-field name."
+    },
+    "terms": {
+      "type": "object",
+      "description": "Term slugs keyed by taxonomy.",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "original_post_id": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "For a pending Ready for Live copy, the live post it will replace."
+    },
+    "embeds": {
+      "type": "array",
+      "description": "Every embed in the block tree. path is the block's position: indexes joined by dots (\"2.0.1\").",
+      "items": {
+        "type": "object",
+        "required": [
+          "block",
+          "path"
+        ],
+        "properties": {
+          "block": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string",
+            "pattern": "^[0-9]+(\\.[0-9]+)*$"
+          },
+          "attrs": {
+            "type": "object",
+            "description": "Block attributes, for nhs/ndo-widget and nhs/metabase-widget."
+          },
+          "src": {
+            "type": "string",
+            "description": "Embed URL, for create-block/kme-embed (its iframe_url), nhs/iframe, core/embed and raw iframes."
+          }
+        }
+      }
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Unique internal hrefs (relative, or to the KME host)."
+    },
+    "blocks_used": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 1
+      }
+    },
+    "presets_used": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Preset titles named by create-block/todo-list blocks, in order of use."
+    },
+    "rendered": {
+      "type": "object",
+      "description": "KME's rendered HTML for server-rendered LEAF blocks that have no saved HTML, keyed by block path. create-block/kme-embed, nhs/ndo-widget and nhs/metabase-widget are never included, and token-like URL parts are replaced with [removed].",
+      "propertyNames": {
+        "pattern": "^[0-9]+(\\.[0-9]+)*$"
+      },
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "revisions": {
+      "type": "array",
+      "description": "Revisions, oldest first, autosaves excluded.",
+      "items": {
+        "type": "object",
+        "required": [
+          "revision_id",
+          "date_gmt",
+          "author",
+          "title",
+          "excerpt",
+          "content_raw"
+        ],
+        "properties": {
+          "revision_id": {
+            "type": "integer"
+          },
+          "date_gmt": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "author": {
+            "$ref": "#/$defs/author_ref"
+          },
+          "title": {
+            "type": "string"
+          },
+          "excerpt": {
+            "type": "string"
+          },
+          "content_raw": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "archives": {
+      "type": "array",
+      "description": "Ready for Live archives that chain to this post (same slug prefix), oldest first.",
+      "items": {
+        "type": "object",
+        "required": [
+          "archive_id",
+          "date_gmt",
+          "archived_gmt",
+          "author",
+          "title",
+          "excerpt",
+          "content_raw",
+          "acf"
+        ],
+        "properties": {
+          "archive_id": {
+            "type": "integer"
+          },
+          "date_gmt": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "When this version was published."
+          },
+          "archived_gmt": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "When it was archived (replaced)."
+          },
+          "author": {
+            "$ref": "#/$defs/author_ref"
+          },
+          "title": {
+            "type": "string",
+            "description": "With the \" - Archived on ...\" suffix removed."
+          },
+          "excerpt": {
+            "type": "string"
+          },
+          "content_raw": {
+            "type": "string"
+          },
+          "acf": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "content_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$",
+      "description": "Fingerprint of the fields SPS2 writes. Unchanged hash = nothing to update on re-import."
+    }
+  },
+  "$defs": {
+    "author_ref": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "required": [
+        "login",
+        "email"
+      ],
+      "properties": {
+        "login": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

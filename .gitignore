@@ -1,0 +1,18 @@
+/vendor/
+/node_modules/
+.phpunit.result.cache
+/languages/*.mo
+.DS_Store
+Thumbs.db
+
+# Release zips from zip-plugin.sh (uploaded to the KME site, never committed)
+/versions/
+
+# Local export bundles written by `wp kme-export bundle` while developing.
+# The committed contract fixture lives in /fixtures/ and is not ignored.
+/bundles/
+
+# Local environment and editor files
+.env
+.idea/
+.vscode/

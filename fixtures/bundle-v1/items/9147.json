@@ -1,0 +1,124 @@
+{
+    "source_id": 9147,
+    "type": "page",
+    "status": "publish",
+    "slug": "denosumab-120mg",
+    "title": "Denosumab 120mg",
+    "parent": null,
+    "menu_order": 0,
+    "url_path": "/denosumab-120mg/",
+    "link": "https://kme.test/denosumab-120mg/",
+    "template": "",
+    "content_raw": "",
+    "excerpt": "",
+    "date_gmt": "2026-02-12T13:45:38+00:00",
+    "modified_gmt": "2026-02-12T13:45:38+00:00",
+    "author": {
+        "login": "author-404",
+        "email": "author-404@example.invalid"
+    },
+    "featured_media": null,
+    "attachments": [],
+    "meta": {},
+    "acf": {
+        "blocks": [
+            {
+                "type": "collection",
+                "block_title": "Cost per defined daily dose and monthly expenditure",
+                "appearance": "cards",
+                "layout": "2over4",
+                "automatic_navigation": 0,
+                "text": "",
+                "pinned": [
+                    {
+                        "list_type": "post",
+                        "post": [
+                            9168
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": null,
+                        "description": ""
+                    },
+                    {
+                        "list_type": "post",
+                        "post": [
+                            9169
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": null,
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "type": "collection",
+                "block_title": "Adoption curve",
+                "appearance": "cards",
+                "layout": "2over4",
+                "automatic_navigation": 0,
+                "text": "",
+                "pinned": [
+                    {
+                        "list_type": "post",
+                        "post": [
+                            9166
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": null,
+                        "description": ""
+                    },
+                    {
+                        "list_type": "post",
+                        "post": [
+                            9167
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": null,
+                        "description": ""
+                    }
+                ]
+            }
+        ],
+        "change_history": false,
+        "publish_date_hidden": "0",
+        "summary": "Compare cost per cost per dose, monthly expenditure and performance as percentage adoption across regions, ICSs, and Trusts in England for denosumab 120mg.",
+        "summary_hidden": "0"
+    },
+    "terms": {},
+    "original_post_id": null,
+    "embeds": [],
+    "links": [],
+    "blocks_used": {},
+    "presets_used": [],
+    "rendered": {},
+    "revisions": [
+        {
+            "revision_id": 9148,
+            "date_gmt": "2026-02-09T13:59:13+00:00",
+            "author": {
+                "login": "author-404",
+                "email": "author-404@example.invalid"
+            },
+            "title": "Denosumab 120mg",
+            "excerpt": "",
+            "content_raw": ""
+        },
+        {
+            "revision_id": 9192,
+            "date_gmt": "2026-02-12T13:45:24+00:00",
+            "author": {
+                "login": "author-404",
+                "email": "author-404@example.invalid"
+            },
+            "title": "Denosumab 120mg",
+            "excerpt": "",
+            "content_raw": ""
+        }
+    ],
+    "archives": [],
+    "content_sha256": "04f5116cb91661df0cfdd1ac45caa4d88288e15949b504b519d38155da959a96"
+}

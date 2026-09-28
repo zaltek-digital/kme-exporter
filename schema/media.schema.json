@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/zaltek-digital/kme-exporter/schema/media.schema.json",
+  "title": "KME export media list (media.json)",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "source_id",
+      "file",
+      "filename",
+      "mime_type",
+      "title",
+      "alt",
+      "caption",
+      "parent",
+      "url",
+      "filesize",
+      "sha256",
+      "missing"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "source_id": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "Attachment ID on the KME site; matches items/{id}.json."
+      },
+      "file": {
+        "type": "string",
+        "pattern": "^files/[0-9]+/[^/]+$",
+        "description": "Path of the file inside the bundle."
+      },
+      "filename": {
+        "type": "string"
+      },
+      "mime_type": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "alt": {
+        "type": "string"
+      },
+      "caption": {
+        "type": "string"
+      },
+      "parent": {
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "url": {
+        "type": "string",
+        "description": "The file's URL on the KME site, for rewriting references in content."
+      },
+      "filesize": {
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "sha256": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "pattern": "^[0-9a-f]{64}$"
+      },
+      "missing": {
+        "type": "boolean",
+        "description": "True when the file wasn't on disk; the bundle then has no file for it."
+      }
+    }
+  }
+}

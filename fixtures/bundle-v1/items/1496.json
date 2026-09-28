@@ -1,0 +1,290 @@
+{
+    "source_id": 1496,
+    "type": "page",
+    "status": "publish",
+    "slug": "latest-reports",
+    "title": "Key Molecules Expenditure",
+    "parent": null,
+    "menu_order": 0,
+    "url_path": "/",
+    "link": "https://kme.test/",
+    "template": "",
+    "content_raw": "",
+    "excerpt": "",
+    "date_gmt": "2024-10-24T10:06:29+00:00",
+    "modified_gmt": "2026-06-11T08:46:34+00:00",
+    "author": {
+        "login": "author-1",
+        "email": "author-1@example.invalid"
+    },
+    "featured_media": null,
+    "attachments": [
+        1561
+    ],
+    "meta": {
+        "footnotes": [
+            ""
+        ]
+    },
+    "acf": {
+        "blocks": [
+            {
+                "type": "collection",
+                "block_title": "About this service",
+                "appearance": "cards",
+                "layout": "3over4",
+                "automatic_navigation": "",
+                "text": "",
+                "pinned": [
+                    {
+                        "list_type": "post",
+                        "post": [
+                            2468
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": "",
+                        "description": ""
+                    },
+                    {
+                        "list_type": "post",
+                        "post": [
+                            2472
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": "",
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "type": "collection",
+                "block_title": "Reports by molecule",
+                "appearance": "simple_cards",
+                "layout": "3over4",
+                "automatic_navigation": "",
+                "text": "",
+                "pinned": [
+                    {
+                        "list_type": "post",
+                        "post": [
+                            9030
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": "",
+                        "description": ""
+                    },
+                    {
+                        "list_type": "post",
+                        "post": [
+                            9243
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": "",
+                        "description": ""
+                    },
+                    {
+                        "list_type": "post",
+                        "post": [
+                            8303
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": "",
+                        "description": ""
+                    },
+                    {
+                        "list_type": "post",
+                        "post": [
+                            9145
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": "",
+                        "description": ""
+                    },
+                    {
+                        "list_type": "post",
+                        "post": [
+                            9147
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": "",
+                        "description": ""
+                    },
+                    {
+                        "list_type": "post",
+                        "post": [
+                            8312
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": "",
+                        "description": ""
+                    },
+                    {
+                        "list_type": "post",
+                        "post": [
+                            8690
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": "",
+                        "description": ""
+                    },
+                    {
+                        "list_type": "post",
+                        "post": [
+                            7694
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": "",
+                        "description": ""
+                    },
+                    {
+                        "list_type": "post",
+                        "post": [
+                            9470
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": null,
+                        "description": ""
+                    },
+                    {
+                        "list_type": "post",
+                        "post": [
+                            9241
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": null,
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "type": "collection",
+                "block_title": "Progress charts",
+                "appearance": "cards",
+                "layout": "2over4",
+                "automatic_navigation": "1",
+                "text": "<h2>Defined daily dose charts</h2>\n<p><a href=\"https://kmewp.sps.nhs.uk/search/?category%5B%5D=defined-daily-dose-charts\">Defined daily doses charts</a> are available for for all Trusts, ICSs and nationally across England.</p>\n<h2>Missed opportunities charts</h2>\n<p><a href=\"https://kmewp.sps.nhs.uk/search/?category%5B%5D=missed-opportunities\">Missed opportunities charts</a> are available for for all Trusts, ICSs and nationally across England.</p>\n<h2>Monthly expenditure charts</h2>\n<p><a href=\"https://kmewp.sps.nhs.uk/search/?category%5B%5D=monthly-expenditure\">Monthly expenditure charts</a> are available for for all Trusts, ICSs and nationally across England.</p>\n",
+                "pinned": [
+                    {
+                        "list_type": "post",
+                        "post": [
+                            8542
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": "",
+                        "description": ""
+                    },
+                    {
+                        "list_type": "post",
+                        "post": [
+                            8543
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": "",
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "type": "collection",
+                "block_title": "National reports",
+                "appearance": "cards",
+                "layout": "2over4",
+                "automatic_navigation": "1",
+                "text": "<h3>Defined daily dose charts</h3>\n<p><a href=\"https://kmewp.sps.nhs.uk/search/?category%5B%5D=defined-daily-dose-charts\">Defined daily doses charts</a> are available for for all Trusts, ICSs and nationally across England.</p>\n<h3>Missed opportunities charts</h3>\n<p><a href=\"https://kmewp.sps.nhs.uk/search/?category%5B%5D=missed-opportunities\">Missed opportunities charts</a> are available for for all Trusts, ICSs and nationally across England.</p>\n<h3>Monthly expenditure charts</h3>\n<p><a href=\"https://kmewp.sps.nhs.uk/search/?category%5B%5D=monthly-expenditure\">Monthly expenditure charts</a> are available for for all Trusts, ICSs and nationally across England.</p>\n",
+                "pinned": [
+                    {
+                        "list_type": "post",
+                        "post": [
+                            8679
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": "",
+                        "description": ""
+                    },
+                    {
+                        "list_type": "post",
+                        "post": [
+                            8678
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": "",
+                        "description": ""
+                    },
+                    {
+                        "list_type": "post",
+                        "post": [
+                            8676
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": "",
+                        "description": ""
+                    },
+                    {
+                        "list_type": "post",
+                        "post": [
+                            8677
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": "",
+                        "description": ""
+                    }
+                ]
+            }
+        ],
+        "change_history": false,
+        "publish_date_hidden": "1",
+        "summary": "View how your organisation is performing for a number of key molecules and compare your performance with others.",
+        "summary_hidden": "0"
+    },
+    "terms": {},
+    "original_post_id": null,
+    "embeds": [],
+    "links": [],
+    "blocks_used": {},
+    "presets_used": [],
+    "rendered": {},
+    "revisions": [
+        {
+            "revision_id": 9398,
+            "date_gmt": "2026-05-07T08:03:38+00:00",
+            "author": {
+                "login": "author-404",
+                "email": "author-404@example.invalid"
+            },
+            "title": "Key Molecules Expenditure",
+            "excerpt": "",
+            "content_raw": ""
+        },
+        {
+            "revision_id": 9492,
+            "date_gmt": "2026-06-11T08:46:34+00:00",
+            "author": {
+                "login": "author-404",
+                "email": "author-404@example.invalid"
+            },
+            "title": "Key Molecules Expenditure",
+            "excerpt": "",
+            "content_raw": ""
+        }
+    ],
+    "archives": [],
+    "content_sha256": "f4538eafe1a0ba9dcf0c6a166a77f0c9ef87e53965bbeea02176332922002fb6"
+}

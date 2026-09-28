@@ -1,0 +1,94 @@
+{
+    "source_id": 4911,
+    "type": "page",
+    "status": "publish",
+    "slug": "progress-charts",
+    "title": "Progress charts",
+    "parent": null,
+    "menu_order": 0,
+    "url_path": "/progress-charts/",
+    "link": "https://kme.test/progress-charts/",
+    "template": "",
+    "content_raw": "",
+    "excerpt": "",
+    "date_gmt": "2025-03-31T09:51:58+00:00",
+    "modified_gmt": "2026-01-05T14:52:56+00:00",
+    "author": {
+        "login": "author-2",
+        "email": "author-2@example.invalid"
+    },
+    "featured_media": null,
+    "attachments": [],
+    "meta": {},
+    "acf": {
+        "blocks": [
+            {
+                "type": "collection",
+                "block_title": "",
+                "appearance": "cards",
+                "layout": "3over4",
+                "automatic_navigation": "",
+                "text": "",
+                "pinned": [
+                    {
+                        "list_type": "post",
+                        "post": [
+                            8542
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": "",
+                        "description": ""
+                    },
+                    {
+                        "list_type": "post",
+                        "post": [
+                            8543
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": null,
+                        "description": ""
+                    }
+                ]
+            }
+        ],
+        "change_history": false,
+        "publish_date_hidden": "0",
+        "summary": "",
+        "summary_hidden": "0"
+    },
+    "terms": {},
+    "original_post_id": null,
+    "embeds": [],
+    "links": [],
+    "blocks_used": {},
+    "presets_used": [],
+    "rendered": {},
+    "revisions": [
+        {
+            "revision_id": 5694,
+            "date_gmt": "2025-06-03T10:38:17+00:00",
+            "author": {
+                "login": "author-404",
+                "email": "author-404@example.invalid"
+            },
+            "title": "Progress charts",
+            "excerpt": "",
+            "content_raw": ""
+        },
+        {
+            "revision_id": 9025,
+            "date_gmt": "2026-01-05T14:52:56+00:00",
+            "author": {
+                "login": "author-2",
+                "email": "author-2@example.invalid"
+            },
+            "title": "Progress charts",
+            "excerpt": "",
+            "content_raw": ""
+        }
+    ],
+    "archives": [],
+    "content_sha256": "d5e43e9f9cea3034eb5ab08fd7929a830f716eb609600fc3cfd2be4cd6d78b99"
+}

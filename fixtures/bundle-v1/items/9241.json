@@ -1,0 +1,124 @@
+{
+    "source_id": 9241,
+    "type": "page",
+    "status": "publish",
+    "slug": "omalizumab",
+    "title": "Omalizumab",
+    "parent": null,
+    "menu_order": 0,
+    "url_path": "/omalizumab/",
+    "link": "https://kme.test/omalizumab/",
+    "template": "",
+    "content_raw": "",
+    "excerpt": "",
+    "date_gmt": "2026-03-18T09:42:10+00:00",
+    "modified_gmt": "2026-03-18T09:42:10+00:00",
+    "author": {
+        "login": "author-404",
+        "email": "author-404@example.invalid"
+    },
+    "featured_media": null,
+    "attachments": [],
+    "meta": {},
+    "acf": {
+        "blocks": [
+            {
+                "type": "collection",
+                "block_title": "Cost per DDD and monthly expenditure",
+                "appearance": "cards",
+                "layout": "3over4",
+                "automatic_navigation": 0,
+                "text": "",
+                "pinned": [
+                    {
+                        "list_type": "post",
+                        "post": [
+                            9304
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": null,
+                        "description": ""
+                    },
+                    {
+                        "list_type": "post",
+                        "post": [
+                            9307
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": null,
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "type": "collection",
+                "block_title": "Adoption curve",
+                "appearance": "cards",
+                "layout": "3over4",
+                "automatic_navigation": 0,
+                "text": "",
+                "pinned": [
+                    {
+                        "list_type": "post",
+                        "post": [
+                            9306
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": null,
+                        "description": ""
+                    },
+                    {
+                        "list_type": "post",
+                        "post": [
+                            9305
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": null,
+                        "description": ""
+                    }
+                ]
+            }
+        ],
+        "change_history": false,
+        "publish_date_hidden": "0",
+        "summary": "Compare cost per DDD, monthly expenditure and performance as percentage adoption across regions, ICSs, and Trusts in England for omalizumab.",
+        "summary_hidden": "0"
+    },
+    "terms": {},
+    "original_post_id": null,
+    "embeds": [],
+    "links": [],
+    "blocks_used": {},
+    "presets_used": [],
+    "rendered": {},
+    "revisions": [
+        {
+            "revision_id": 9242,
+            "date_gmt": "2026-03-10T11:07:03+00:00",
+            "author": {
+                "login": "author-404",
+                "email": "author-404@example.invalid"
+            },
+            "title": "Omalizumab",
+            "excerpt": "",
+            "content_raw": ""
+        },
+        {
+            "revision_id": 9320,
+            "date_gmt": "2026-03-17T16:47:34+00:00",
+            "author": {
+                "login": "author-404",
+                "email": "author-404@example.invalid"
+            },
+            "title": "Omalizumab",
+            "excerpt": "",
+            "content_raw": ""
+        }
+    ],
+    "archives": [],
+    "content_sha256": "d173a2faa274540dd705ca22a8a1abe1a35cf4eb96540b036641760ff5a5e21e"
+}

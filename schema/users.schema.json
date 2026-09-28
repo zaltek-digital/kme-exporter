@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/zaltek-digital/kme-exporter/schema/users.schema.json",
+  "title": "KME export authors (users.json)",
+  "description": "Only users who authored an exported item or revision. No passwords, roles or other account data.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "login",
+      "email",
+      "display_name"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "login": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string"
+      },
+      "display_name": {
+        "type": "string"
+      }
+    }
+  }
+}

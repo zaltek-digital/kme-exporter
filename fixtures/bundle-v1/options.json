@@ -1,0 +1,365 @@
+{
+    "presets": [
+        {
+            "title": "Introduction Block",
+            "text": "<h2>About the molecules we include</h2>\n<p>You can <a href=\"https://kmewp.sps.nhs.uk/about-the-medicines-we-include/\">learn about the molecules we include</a> in a separate article.</p>\n<h2>Understand the charts</h2>\n<p>You can <a href=\"https://kmewp.sps.nhs.uk/why-and-how-we-monitor-kme/#interpreting-our-charts\">learn about the chart types we use</a> as well as why and how we monitor KME in a separate article.</p>\n",
+            "sha256": "8107fc353380623e728335fc3cf41d1947af4c82a0e7a036e67f9bd1fb9594f4"
+        },
+        {
+            "title": "Using the charts - National",
+            "text": "<h2>Using the charts</h2>\n<p>Charts on this page can show data for all the ICSs within the NHS regions in England. However, they are set to show data for a single region and the ICSs within it.</p>\n",
+            "sha256": "cbfe561b1c95b6a66aa9e1008a48f87c8c5d2bb84ab9d34d5f37e657f1699ca5"
+        },
+        {
+            "title": "Using the charts - NEY",
+            "text": "<h2>Using the charts</h2>\n<p>Charts on this page can show data for all the Trusts within each ICS in North East England and Yorkshire. However, they are initially set to show data for a single ICS and the Trusts within it. You can use the dropdown menu at the top of the chart to show data for Trusts within a different ICS or multiple Trusts across more than one ICS.</p>\n",
+            "sha256": "708d49bd5ad9d819ccd2a218468fb567a3e5591a52ce6bda5084cb0ab1f35b04"
+        },
+        {
+            "title": "Using the charts - NW",
+            "text": "<h2>Using the charts</h2>\n<p>Charts on this page can show data for all the Trusts within each ICS in North West England. However, they are initially set to show data for a single ICS and the Trusts within it. You can use the dropdown menu at the top of the chart to show data for Trusts within a different ICS or multiple Trusts across more than one ICS.</p>\n",
+            "sha256": "9937f237ab6f3dd0c7a92b9fa0ed8205e07fe52807ce0e3e4026bf73c8d25088"
+        },
+        {
+            "title": "Using the charts - Midlands",
+            "text": "<h2>Using the charts</h2>\n<p>Charts on this page can show data for all the Trusts within each ICS in the Midlands. However, they are initially set to show data for a single ICS and the Trusts within it. You can use the dropdown menu at the top of the chart to show data for Trusts within a different ICS or multiple Trusts across more than one ICS.</p>\n",
+            "sha256": "fa69e9d6c307f710398f1bcaf4e581825b4f8a18be71aa6c2a1a305981570bb6"
+        },
+        {
+            "title": "Using the charts - EOE",
+            "text": "<h2>Using the charts</h2>\n<p>Charts on this page can show data for all the Trusts within each ICS in the East of England. However, they are initially set to show data for a single ICS and the Trusts within it. You can use the dropdown menu at the top of the chart to show data for Trusts within a different ICS or multiple Trusts across more than one ICS.</p>\n",
+            "sha256": "1d05bfb307ef70d5315ac909250b6e09c88004c15ba89e1991bad5b4d13262d8"
+        },
+        {
+            "title": "Using the charts - London",
+            "text": "<h2>Using the charts</h2>\n<p>Charts on this page can show data for all the Trusts within each ICS in London. However, they are initially set to show data for a single ICS and the Trusts within it. You can use the dropdown menu at the top of the chart to show data for Trusts within a different ICS or multiple Trusts across more than one ICS.</p>\n",
+            "sha256": "90a79e20216e3c96835e5e2ad231414fc5b9e7d49acd4e24f91d8e655478e7df"
+        },
+        {
+            "title": "Using the charts - SE",
+            "text": "<h2>Using the charts</h2>\n<p>Charts on this page can show data for all the Trusts within each ICS in South East of England. However, they are initially set to show data for a single ICS and the Trusts within it. You can use the dropdown menu at the top of the chart to show data for Trusts within a different ICS or multiple Trusts across more than one ICS.</p>\n",
+            "sha256": "6b03554bd676d6245b1192d3da5891391d4c8bf32985ad1c8fb0551332fcf4fd"
+        },
+        {
+            "title": "Using the charts - SW",
+            "text": "<h2>Using the charts</h2>\n<p>Charts on this page can show data for all the Trusts within each ICS in South West of England. However, they are initially set to show data for a single ICS and the Trusts within it. You can use the dropdown menu at the top of the chart to show data for Trusts within a different ICS or multiple Trusts across more than one ICS.</p>\n",
+            "sha256": "6aca7254eac0994131a45c7c612bfe3296d0d9f50725fb952e7cb28b50db7d3f"
+        },
+        {
+            "title": "Compare regions - select and compare type posts",
+            "text": "<h3>Regions</h3>\n<p>Compare performance across all regions or select one or more regions to view those of interest to you.</p>\n",
+            "sha256": "7e850d3b080ee417766436c9feeabcea18219739ca34bedf2ff303c82ff7548d"
+        },
+        {
+            "title": "Compare ICSs - select and compare type posts",
+            "text": "<h3>Integrated Care Systems</h3>\n<p>Compare performance for ICSs within a single region. Select a region and then the ICSs of interest to view those of interest to you.</p>\n",
+            "sha256": "e3e4e0bdc03998ae564ebcf3e8d217f4a533e477cddee718440546ee9d4f01f4"
+        },
+        {
+            "title": "North East England and Yorkshire  - select and compare",
+            "text": "<h3>North East England and Yorkshire</h3>\n<p>Select ICSs and Trusts within North East England and Yorkshire to view and compare performance.</p>\n",
+            "sha256": "7d834d127370d601afab3c274102f9ca2ce564dd19d8efb7426c32c42f91b08e"
+        },
+        {
+            "title": "North West England - select and compare",
+            "text": "<h3>North West England</h3>\n<p>Select ICSs and Trusts within North West England to view and compare performance.</p>\n",
+            "sha256": "d532c39c5923bc73181ff8f5b6034b8b88135cf2c74a6369fdd26c28374738bd"
+        },
+        {
+            "title": "The Midlands - select and compare",
+            "text": "<h3>The Midlands</h3>\n<p>Select ICSs and Trusts within the Midlands to view and compare performance.</p>\n",
+            "sha256": "6e03757d96628815d2fc6e0d8a9a2b752b2ffa515505e1aeff6984a2516ddba6"
+        },
+        {
+            "title": "East of England - select and compare",
+            "text": "<h3>East of England</h3>\n<p>Select ICSs and Trusts within the East of England to view and compare performance.</p>\n",
+            "sha256": "e9d5d3c18d46ea1945c8ce9171ba38efdf0ca6f126efe7b030b977d17231e5d9"
+        },
+        {
+            "title": "London - select and compare",
+            "text": "<h3>London</h3>\n<p>Select ICSs and Trusts within London to view and compare performance.</p>\n",
+            "sha256": "b65ed2bffac61afa78d5b52652bab5e1c1988c185bddc648dc8682c5f8f2869b"
+        },
+        {
+            "title": "South East England - select and compare",
+            "text": "<h3>South East England</h3>\n<p>Select ICSs and Trusts within South East England to view and compare performance.</p>\n",
+            "sha256": "aeb252530b5e41f51ade0969e0a9f3c3828ac6d27af1224926daeb754304cd0e"
+        },
+        {
+            "title": "South West England - select and compare",
+            "text": "<h3>South West England</h3>\n<p>Select ICSs and Trusts within South West England to view and compare performance.</p>\n",
+            "sha256": "6ca0b9d12e8feb801e4a9cfc03e89e0d23a7f8f834935f3f7d6392cae53a8eb9"
+        },
+        {
+            "title": "Introduction text for progress charts (RAG charts)",
+            "text": "<h2>About the molecules we include</h2>\n<p>You can <a href=\"https://kmewp.sps.nhs.uk/about-the-medicines-we-include/\">learn about the molecules</a> we include in a separate article.</p>\n<h2>Understanding the progress charts</h2>\n<p>You can <a href=\"https://kmewp.sps.nhs.uk/why-and-how-we-monitor-kme/#progress-charts\">learn about the progress charts</a> and how we apply a RAG rating.</p>\n",
+            "sha256": "b47a0a29d59b317ef947af4e58f509f7ef563861b5ee641f5858b67cababbc33"
+        },
+        {
+            "title": "Instructions to add before National progress chart for regions",
+            "text": "<p>Select the molecule(s) of interest to compare against all regions.</p>\n",
+            "sha256": "b11c96a170323ed092587b36de00d485507856d17d61072dc59ce8a2ee9a5a16"
+        },
+        {
+            "title": "Instructions to add before progress charts for ICSs",
+            "text": "<p>Select the molecule(s) of interest to compare against all ICSs within the region.</p>\n",
+            "sha256": "57569e8333b89910b958155ddfa9cc560211a6e430150b6531d35de33560173f"
+        },
+        {
+            "title": "Instructions to add before progress charts for Trusts",
+            "text": "<p>First select the molecule(s) you are interested in, then select the ICS(s), and finally select the Trust(s) you wish to view.</p>\n",
+            "sha256": "bd6ebc9a03068fc3dbb05af7e5d09dc85e5da8f02daef5348574db4988be2014"
+        },
+        {
+            "title": "East of England - Target savings regions",
+            "text": "<h3>East of England</h3>\n<p>Select ICSs within the East of England to view and compare performance.</p>\n",
+            "sha256": "ccf6e6040dfaab1798f59e0dc4e335c9f2760d1c64aef32d761236d1ea30d30a"
+        },
+        {
+            "title": "London - Target savings regions",
+            "text": "<h3>London</h3>\n<p>Select ICSs within London to view and compare performance.</p>\n",
+            "sha256": "5c95d9b2b33fce9b222340ff36f691779d4467361616f49a9c157cb39466b635"
+        },
+        {
+            "title": "Midlands - Target savings regions",
+            "text": "<h3>The Midlands</h3>\n<p>Select ICSs within the Midlands to view and compare performance.</p>\n",
+            "sha256": "b8cfdf454c2c366b04397a1df07655965c5c92c809454c03464c2f1f8dd14115"
+        },
+        {
+            "title": "North East England and Yorkshire - Target savings regions",
+            "text": "<h3>North East England and Yorkshire</h3>\n<p>Select ICSs within North East England and Yorkshire to view and compare performance.</p>\n",
+            "sha256": "6e0c0eaba5f63e11e1db289569d8561ba180066efd61395f920f484b95235c30"
+        },
+        {
+            "title": "North West England - Target savings regions",
+            "text": "<h3>North West England</h3>\n<p>Select ICSs within North West England to view and compare performance.</p>\n",
+            "sha256": "f8450c24e0098daff85d9e35841711e078f09ee166214b12f2a0c106f5b0ac13"
+        },
+        {
+            "title": "South East England - Target savings regions",
+            "text": "<h3>South East England</h3>\n<p>Select ICSs within South East England to view and compare performance.</p>\n",
+            "sha256": "aef266d397ff11d58b86ec34adf4bc4c834b20a079afa2175c90d9d0747122e2"
+        },
+        {
+            "title": "South West England - Target savings regions",
+            "text": "<h3>South West England</h3>\n<p>Select ICSs within South West England to view and compare performance.</p>\n",
+            "sha256": "e933effb9809dc6c132d00371297c5e3972f38e9cff007715af618268bf708a5"
+        },
+        {
+            "title": "Introduction to adoption curves - Simple",
+            "text": "<h2>Understanding the adoption curves</h2>\n<p>You can <a href=\"https://kmewp.sps.nhs.uk/why-and-how-we-monitor-kme/#target-savings-charts\">learn about the adoption curve charts</a> and how we calculate target savings.</p>\n<h4>Defining adoption curve</h4>\n<p>There are 3 target adoption curves. They all have a target of 80% adoption, but the time expected to reach 80% varies, depending on the complexity of the molecule.</p>\n<p>This molecule is considered to be a simple molecule. The 80% target adoption should be met at 4 months from the contract start date.</p>\n",
+            "sha256": "84d655e541886d9ef97760a0b92dd4481a63bf7451553d1bb13ad94bfabf2ce0"
+        },
+        {
+            "title": "Intrdouction to adoption curves - Moderate",
+            "text": "<h2>Understanding the adoption curves</h2>\n<p>You can <a href=\"https://kmewp.sps.nhs.uk/why-and-how-we-monitor-kme/#progress-charts\">learn about the adoption curve charts</a> and how we calculate target savings.</p>\n<h4>Defining adoption curve</h4>\n<p>There are 3 target adoption curves. They all have a target of 80% adoption, but the time expected to reach 80% varies, depending on the complexity of the molecule.</p>\n<p>This molecule is considered to be a moderately complex molecule. The 80% target adoption should be met at 8 months from the contract start date.</p>\n",
+            "sha256": "9d7376de601df7184d0dffc4b2fd1c364daa8c3de22e8e607ca73a4fffce83f2"
+        },
+        {
+            "title": "Introdouction to adoption curves - Complex",
+            "text": "<h2>Understanding the adoption curves</h2>\n<p>You can <a href=\"https://kmewp.sps.nhs.uk/why-and-how-we-monitor-kme/#progress-charts\">learn about the adoption curve charts</a> and how we calculate target savings.</p>\n<h4>Defining adoption curve</h4>\n<p>There are 3 target adoption curves. They all have a target of 80% adoption, but the time expected to reach 80% varies, depending on the complexity of the molecule.</p>\n<p>This molecule is considered to be a highly complex molecule. The 80% target adoption should be met at 10 months from the contract start date.</p>\n",
+            "sha256": "aaf3357315b218f71b2fa5e03d4a88742244aa7b770de63fdaa1e1ab901fc03d"
+        },
+        {
+            "title": "Nilotinib - Select and compare non DDD",
+            "text": "<h2>Nilotinib</h2>\n<h3>Indication</h3>\n<p>Philadelphia chromosome positive chronic myelogenous leukaemia (CML)</p>\n<h3>Presentations</h3>\n<p>Nilotinib is available as 50mg, 150mg and 200mg capsules</p>\n<h3>Baseline spend</h3>\n<p>£14 million per year nationally</p>\n<h3>Contract start</h3>\n<p>September 2025</p>\n<h3>Supply issues</h3>\n<p>Some regions were hit by an initial lack of generic stock in the first few weeks post contract start.</p>\n",
+            "sha256": "dbfbf89b9d3290cd4c7932750cdb833a3a600c7488a7b8f511c033938111496d"
+        },
+        {
+            "title": "Nilotinib - Select and compare DDD",
+            "text": "<h2>Nilotinib</h2>\n<h3>Indication</h3>\n<p>Philadelphia chromosome positive chronic myelogenous leukaemia (CML)</p>\n<h3>Presentations</h3>\n<p>Nilotinib is available as 50mg, 150mg and 200mg capsules</p>\n<h3>Baseline spend</h3>\n<p>£14 million per year nationally</p>\n<h3>Contract start</h3>\n<p>September 2025</p>\n<h3>Supply issues</h3>\n<p>Some regions were hit by an initial lack of generic stock in the first few weeks post contract start.</p>\n<h3>Defined daily dose</h3>\n<p>600mg</p>\n<h3>Uptake summary</h3>\n<p>Good progress in all regions now being seen.</p>\n<h3>Other issues</h3>\n<p>The 50mg capsule wasn’t awarded to a generic supplier as the volumes issued were only 2% of the national total.</p>\n",
+            "sha256": "f88786f305bbd1f0fe0a6f8603831bc3dd11e62883211af996426bb05f2833f3"
+        },
+        {
+            "title": "Nilotinib - DDD",
+            "text": "<h2>Nilotinib</h2>\n<h3>Indication</h3>\n<p>Philadelphia chromosome positive chronic myelogenous leukaemia (CML)</p>\n<h3>Presentations</h3>\n<p>Nilotinib is available as 50mg, 150mg and 200mg capsules</p>\n<h3>Baseline spend</h3>\n<p>£14 million per year nationally</p>\n<h3>Contract start</h3>\n<p>September 2025</p>\n<h3>Supply issues</h3>\n<p>Some regions were hit by an initial lack of generic stock in the first few weeks post contract start.</p>\n<h3>Defined daily dose</h3>\n<p>600mg</p>\n<h3>Uptake summary</h3>\n<p>Good progress in all regions now being seen.</p>\n<h3>Other issues</h3>\n<p>The 50mg capsule wasn’t awarded to a generic supplier as the volumes issued were only 2% of the national total.</p>\n<h3>Chart</h3>\n",
+            "sha256": "49196f3947f3b94aecda3dcbfaf1b288f6457fd25e03e680aa51f7d3e1383ab3"
+        },
+        {
+            "title": "Nilotinib - Everywhere non DDD",
+            "text": "<h2>Nilotinib</h2>\n<h3>Indication</h3>\n<p>Philadelphia chromosome positive chronic myelogenous leukaemia (CML)</p>\n<h3>Presentations</h3>\n<p>Nilotinib is available as 50mg, 150mg and 200mg capsules</p>\n<h3>Baseline spend</h3>\n<p>£14 million per year nationally</p>\n<h3>Contract start</h3>\n<p>September 2025</p>\n<h3>Supply issues</h3>\n<p>Some regions were hit by an initial lack of generic stock in the first few weeks post contract start.</p>\n<h3>Chart</h3>\n",
+            "sha256": "b10adeab81b84d622c3ce8aec4aa34e294817a2964ea908d868833c39799e51e"
+        },
+        {
+            "title": "Axitinib - Select and compare non DDD",
+            "text": "<h2>Axitinib</h2>\n<h3>Indication</h3>\n<p>Advanced renal cell carcinoma</p>\n<h3>Presentations</h3>\n<p>Axitinib is available in 1mg, 3mg, 5mg and 7mg tablets</p>\n<h3>Baseline spend</h3>\n<p>£9.8 million per year nationally</p>\n<h3>Contract start</h3>\n<p>October 2025</p>\n<h3>Supply issues</h3>\n<p>Some initial gaps in some regions but the impact appears to be low.</p>\n",
+            "sha256": "3b0380385090189d2cdb69bc33ad9b7aadd89c37ee71b6eb7dedeb4c6eddf7e2"
+        },
+        {
+            "title": "Axitinib - Select and compare DDD",
+            "text": "<h2>Axitinib</h2>\n<h3>Indication</h3>\n<p>Advanced renal cell carcinoma</p>\n<h3>Presentations</h3>\n<p>Axitinib is available in 1mg, 3mg, 5mg and 7mg tablets</p>\n<h3>Baseline spend</h3>\n<p>£9.8 million per year nationally</p>\n<h3>Contract start</h3>\n<p>October 2025</p>\n<h3>Supply issues</h3>\n<p>Some initial gaps in some regions but the impact appears to be low.</p>\n<h3>Defined daily dose</h3>\n<p>10mg</p>\n<h3>Uptake summary</h3>\n<p>Very good uptake now visible in all regions. The East of England region is still slightly adrift although the situation is improving.</p>\n<h3>Other issues</h3>\n<p>None</p>\n",
+            "sha256": "c8f83c06e227d081d51bac48ee50c4a840c0d1b85527489086c2a6f30cc72a2e"
+        },
+        {
+            "title": "Axitinib - DDD",
+            "text": "<h2>Axitinib</h2>\n<h3>Indication</h3>\n<p>Advanced renal cell carcinoma</p>\n<h3>Presentations</h3>\n<p>Axitinib is available in 1mg, 3mg, 5mg and 7mg tablets</p>\n<h3>Baseline spend</h3>\n<p>£9.8 million per year nationally</p>\n<h3>Contract start</h3>\n<p>October 2025</p>\n<h3>Supply issues</h3>\n<p>Some initial gaps in some regions but the impact appears to be low.</p>\n<h3>Defined daily dose</h3>\n<p>10mg</p>\n<h3>Uptake summary</h3>\n<p>Very good uptake now visible in all regions. The East of England region is still slightly adrift although the situation is improving.</p>\n<h3>Other issues</h3>\n<p>None.</p>\n<h3>Chart</h3>\n",
+            "sha256": "618204577cd348877c8c427b571f493f3e630dbd5ce88f1274cd8ab10b691fb9"
+        },
+        {
+            "title": "Axitinib - Everywhere non DDD",
+            "text": "<h2>Axitinib</h2>\n<h3>Indication</h3>\n<p>Advanced renal cell carcinoma</p>\n<h3>Presentations</h3>\n<p>Axitinib is available in 1mg, 3mg, 5mg and 7mg tablets</p>\n<h3>Baseline spend</h3>\n<p>£9.8 million per year nationally</p>\n<h3>Contract start</h3>\n<p>October 2025</p>\n<h3>Supply issues</h3>\n<p>Some initial gaps in some regions but the impact appears to be low.</p>\n<h3>Chart</h3>\n",
+            "sha256": "57c62df49e80958de48d464c07b669706181d42cbf07e2cde232ece84a870321"
+        },
+        {
+            "title": "Eltrombopag  - Select and compare non DDD",
+            "text": "<h2>Eltrombopag</h2>\n<h3>Indications</h3>\n<p>Primary immune thrombocytopenia in adults and paediatric patients aged 1 year and above</p>\n<p>Thrombocytopenia in association with chronic hepatitis C virus</p>\n<h3>Presentations</h3>\n<p>Eltrombopag is available as 25mg, 50mg and 75mg tablets</p>\n<h3>Baseline spend</h3>\n<p>£36 million per year nationally</p>\n<h3>Contract start</h3>\n<p>October 2025</p>\n<h3>Supply issues</h3>\n<p>Several regions had gaps in supply at the start of contract but these have now resloved.</p>\n",
+            "sha256": "01fe136f27d42e15bf26aca759322955759428b443e16b611514d52818c806f2"
+        },
+        {
+            "title": "Eltrombopag - Select and compare DDD",
+            "text": "<h2>Eltrombopag</h2>\n<h3>Indications</h3>\n<p>Primary immune thrombocytopenia in adults and paediatric patients aged 1 year and above</p>\n<p>Thrombocytopenia in association with chronic hepatitis C virus</p>\n<h3>Presentations</h3>\n<p>Eltrombopag is available as 25mg, 50mg and 75mg tablets</p>\n<h3>Baseline spend</h3>\n<p>£36 million per year nationally</p>\n<h3>Contract start</h3>\n<p>October 2025</p>\n<h3>Supply issues</h3>\n<p>Several regions had gaps in supply at the start of contract but these have now resolved.</p>\n<h3>Defined daily dose</h3>\n<p>50mg</p>\n<h3>Uptake summary</h3>\n<p>Very good uptake seen in all regions</p>\n<h3>Other issues</h3>\n<p>Only the originator brand (Revolade) is licenced for acquired severe aplastic anaemia, however this indication is not commissioned currently by NHSE.</p>\n",
+            "sha256": "48299dbd476bb2459e1287b5f13ded63a2afc8902ecbed4807e7a24fc89c6a07"
+        },
+        {
+            "title": "Eltrombopag - DDD",
+            "text": "<h2>Eltrombopag</h2>\n<h3>Indications</h3>\n<p>Primary immune thrombocytopenia in adults and paediatric patients aged 1 year and above</p>\n<p>Thrombocytopenia in association with chronic hepatitis C virus</p>\n<h3>Presentations</h3>\n<p>Eltrombopag is available as 25mg, 50mg and 75mg tablets</p>\n<h3>Baseline spend</h3>\n<p>£36 million per year nationally</p>\n<h3>Contract start</h3>\n<p>October 2025</p>\n<h3>Supply issues</h3>\n<p>Several regions had gaps in supply at the start of contract but these have now resolved.</p>\n<h3>Defined daily dose</h3>\n<p>50mg</p>\n<h3>Uptake summary</h3>\n<p>Very good uptake seen in all regions</p>\n<h3>Other issues</h3>\n<p>Only the originator brand (Revolade) is licenced for acquired severe aplastic anaemia, however this indication is not commissioned by NHSE.</p>\n<h3>Chart</h3>\n",
+            "sha256": "436cc7a52e10d1545413c79a5388c90a744a20d1fb996b1926d35f025854db32"
+        },
+        {
+            "title": "Eltrombopag - Everywhere non DDD",
+            "text": "<h2>Eltrombopag</h2>\n<h3>Indications</h3>\n<p>Primary immune thrombocytopenia in adults and paediatric patients aged 1 year and above</p>\n<p>Thrombocytopenia in association with chronic hepatitis C virus</p>\n<h3>Presentations</h3>\n<p>Eltrombopag is available as 25mg, 50mg and 75mg tablets</p>\n<h3>Baseline spend</h3>\n<p>£36 million per year nationally</p>\n<h3>Contract start</h3>\n<p>October 2025</p>\n<h3>Supply issues</h3>\n<p>Several regions had gaps in supply at the start of contract but these have now resolved.</p>\n<h3>Chart</h3>\n",
+            "sha256": "0126dcfffa5e3e9de098333d71f86288b304122efcef089081a626095b8e01d7"
+        },
+        {
+            "title": "Golimumab - DDD",
+            "text": "<h2>Golimumab</h2>\n<h3>Indications</h3>\n<p>Rheumatoid arthritis, psoriatic arthritis, axial spondyloarthritis and ulcerative colitis</p>\n<h3>Presentations</h3>\n<p>Golimumab is available as 50mg and 100mg subcutaneous injection pen and syringe</p>\n<h3>Baseline spend</h3>\n<p>£41 million</p>\n<h3>Contract start</h3>\n<p>November 2025</p>\n<h3>Supply issues</h3>\n<p>None</p>\n<h3>Defined daily dose</h3>\n<p>1.66mg</p>\n<h3>Uptake summary</h3>\n<p>Excellent</p>\n<h3>Other issues</h3>\n<p>A mid-contract price review has created a further opportunity attached to use of the biosimilar. This will be reflected in the June data.</p>\n<h3>Chart</h3>\n",
+            "sha256": "8aa6da29d02c451ac7b91a1095d5ae3fcf9569658785a5992a7c4a718087126f"
+        },
+        {
+            "title": "Golimumab - Everywhere non DDD",
+            "text": "<h2>Golimumab</h2>\n<h3>Indications</h3>\n<p>Rheumatoid arthritis, psoriatic arthritis, axial spondyloarthritis and ulcerative colitis</p>\n<h3>Presentations</h3>\n<p>Golimumab is available as 50mg and 100mg subcutaneous injection pen and syringe</p>\n<h3>Baseline spend</h3>\n<p>£41 million</p>\n<h3>Contract start</h3>\n<p>November 2025</p>\n<h3>Supply issues</h3>\n<p>None</p>\n<h3>Chart</h3>\n",
+            "sha256": "1167ab3b18662ac1740f715d90fd8a33124e61d20ddd36d6a9843e5d8d902a4d"
+        },
+        {
+            "title": "Golimumab - Select and compare DDD",
+            "text": "<h2>Golimumab</h2>\n<h3>Indications</h3>\n<p>Rheumatoid arthritis, psoriatic arthritis, axial spondyloarthritis and ulcerative colitis</p>\n<h3>Presentations</h3>\n<p>Golimumab is available as 50mg and 100mg subcutaneous injection pen and syringe</p>\n<h3>Baseline spend</h3>\n<p>£41 million</p>\n<h3>Contract start</h3>\n<p>November 2025</p>\n<h3>Supply issues</h3>\n<p>None</p>\n<h3>Defined daily dose</h3>\n<p>1.66mg</p>\n<h3>Uptake summary</h3>\n<p>Excellent</p>\n<h3>Other issues</h3>\n<p>A mid-contract price review has created a further opportunity attached to use of the biosimilar. This will be reflected in the June data.</p>\n",
+            "sha256": "012cc111aed523d6a82daf32f44edf4422f9fd4c101f8c4ca1aed72d94683686"
+        },
+        {
+            "title": "Golimumab - Select and compare non DDD",
+            "text": "<h2>Golimumab</h2>\n<h3>Indications</h3>\n<p>Rheumatoid arthritis, psoriatic arthritis, axial spondyloarthritis and ulcerative colitis</p>\n<h3>Presentations</h3>\n<p>Golimumab is available as 50mg and 100mg subcutaneous injection pen and syringe</p>\n<h3>Baseline spend</h3>\n<p>£41 million</p>\n<h3>Contract start</h3>\n<p>November 2025</p>\n<h3>Supply issues</h3>\n<p>None</p>\n",
+            "sha256": "3488f7f1ad4fb22827e0db2062c0b2638d26ad5e1fa97901ac314f80bb366bcc"
+        },
+        {
+            "title": "Aflibercept - DDD",
+            "text": "<h2>Aflibercept</h2>\n<h3>Indications</h3>\n<p>Neovascular (wet) age-related macular degeneration (AMD), visual impairment due retinal vein occlusion (RVO) and visual impairment due to diabetic macular oedema (DMO)</p>\n<h3>Presentations</h3>\n<p>Aflibercept is available as vials and pre-filled syringes</p>\n<h3>Baseline spend</h3>\n<p>£268 million</p>\n<h3>Contract start</h3>\n<p>December 2025</p>\n<h3>Supply issues</h3>\n<p>Restricted access to the regionally awarded biosimilars continue to affect 2 of the 4 contract regions, London, and Midlands and East.</p>\n<h3>Defined daily dose</h3>\n<p>Not applicable &#8211; cost per dose used instead</p>\n<h3>Uptake summary</h3>\n<p><span class=\"NormalTextRun SCXW121690827 BCX8\">Progress is seen now in all regions as the overall supply situation has improved, however unrestricted access still isn’t in place nationally. London and the Midlands and East region still have limitations on access to the awarded biosimilar in place. </span></p>\n<h3>Other issues</h3>\n<p>Nil</p>\n<h3>Chart</h3>\n",
+            "sha256": "836728a2e13508fb04d8ad64dcf3d3a687dd0b36812bb02cf3936594ef5ac6a0"
+        },
+        {
+            "title": "Aflibercept - Everywhere non DDD",
+            "text": "<h2>Aflibercept</h2>\n<h3>Indications</h3>\n<p>Neovascular (wet) age-related macular degeneration (AMD), visual impairment due retinal vein occlusion (RVO) and visual impairment due to diabetic macular oedema (DMO)</p>\n<h3>Presentations</h3>\n<p>Aflibercept is available as vials and pre-filled syringes</p>\n<h3>Baseline spend</h3>\n<p>£268 million</p>\n<h3>Contract start</h3>\n<p>December 2025</p>\n<h3>Supply issues</h3>\n<p>Restricted access to the regionally awarded biosimilars continue to affect 2 of the 4 contract regions, London, and Midlands and East.</p>\n<h3>Chart</h3>\n",
+            "sha256": "61e281e97eb706a7bb2de480f99d067fbcdca73385faba55d20d5c7408d923cb"
+        },
+        {
+            "title": "Aflibercept - Select and compare  DDD",
+            "text": "<h2>Aflibercept</h2>\n<h3>Indications</h3>\n<p>Neovascular (wet) age-related macular degeneration (AMD), visual impairment due retinal vein occlusion (RVO) and visual impairment due to diabetic macular oedema (DMO)</p>\n<h3>Presentations</h3>\n<p>Aflibercept is available as vials and pre-filled syringes</p>\n<h3>Baseline spend</h3>\n<p>£268 million</p>\n<h3>Contract start</h3>\n<p>December 2025</p>\n<h3>Supply issues</h3>\n<p>Restricted access to the regionally awarded biosimilars continue to affect 2 of the 4 contract regions, London, and Midlands and East.</p>\n<h3>Defined daily dose</h3>\n<p>Not applicable &#8211; cost per dose used instead</p>\n<h3>Uptake summary</h3>\n<p>Progress is seen now in all regions as the overall supply situation has improved, however unrestricted access still isn’t in place nationally. London and the Midlands and East region still have limitations on access to the awarded biosimilar in place.</p>\n<h3>Other issues</h3>\n<p>Nil</p>\n",
+            "sha256": "1325a8598cf0e85b61495d2bb4342de046d23781c7f5b2f80f9e43408d881fba"
+        },
+        {
+            "title": "Aflibercept - Select and compare non DDD",
+            "text": "<h2>Aflibercept</h2>\n<h3>Indications</h3>\n<p>Neovascular (wet) age-related macular degeneration (AMD), visual impairment due retinal vein occlusion (RVO) and visual impairment due to diabetic macular oedema (DMO)</p>\n<h3>Presentations</h3>\n<p>Aflibercept is available as vials and pre-filled syringes</p>\n<h3>Baseline spend</h3>\n<p>£268 million</p>\n<h3>Contract start</h3>\n<p>December 2025</p>\n<h3>Supply issues</h3>\n<p>Restricted access to the regionally awarded biosimilars continue to affect 2 of the 4 contract regions, London, and Midlands and East.</p>\n",
+            "sha256": "0bcce22c7ff8ebf58444ed441ac9e576ffa740915ed2c149c00bc1a80ae5271d"
+        },
+        {
+            "title": "Denosumab 60mg DDD",
+            "text": "<h2>Denosumab 60mg</h2>\n<h3>Indications</h3>\n<p>Treatment of osteoporosis and bone loss in selected patient cohorts as per licensed indications.</p>\n<h3>Presentations</h3>\n<p>Denosumab 60mg is available as pre-filled syringes</p>\n<h3>Baseline spend</h3>\n<p>£10 million</p>\n<h3>Contract start</h3>\n<p>January 2026</p>\n<h3>Supply issues</h3>\n<p>Uptake is now seen in all regions but has been inhibited by the initial stock issues.</p>\n<h3>Defined daily dose</h3>\n<p>0.33mg</p>\n<h3>Uptake summary</h3>\n<p><span class=\"EOP Selected SCXW229299712 BCX8\" data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335557856&quot;:16777215,&quot;335559740&quot;:240}\">Uptake is generally good and the supply issues affecting the South West and East of England regions in May have now resolved. </span></p>\n<h3>Other issues</h3>\n<p>Nil</p>\n<h3>Chart</h3>\n",
+            "sha256": "8c71a905f7cd0a8b0b63619a686563e4dea9514ea937af84c587a1edd2fa0da5"
+        },
+        {
+            "title": "Denosumab 60mg - Everywhere non DDD",
+            "text": "<h2>Denosumab 60mg</h2>\n<h3>Indications</h3>\n<p>Treatment of osteoporosis and bone loss in selected patient cohorts as per licensed indications.</p>\n<h3>Presentations</h3>\n<p>Denosumab 60mg is available as pre-filled syringes</p>\n<h3>Baseline spend</h3>\n<p>£10 million</p>\n<h3>Contract start</h3>\n<p>January 2026</p>\n<h3>Supply issues</h3>\n<p>Uptake is now seen in all regions but has been inhibited by the initial stock issues.</p>\n<h3>Chart</h3>\n",
+            "sha256": "fc71aed2315cf3ba133e469560a4485cbf6cc04f65594829f5768e0f030fd024"
+        },
+        {
+            "title": "Denosumab 60mg - Select and compare  DDD",
+            "text": "<h2>Denosumab 60mg</h2>\n<h3>Indications</h3>\n<p>Treatment of osteoporosis and bone loss in selected patient cohorts as per licensed indications.</p>\n<h3>Presentations</h3>\n<p>Denosumab 60mg is available as pre-filled syringes</p>\n<h3>Baseline spend</h3>\n<p>£10 million</p>\n<h3>Contract start</h3>\n<p>January 2026</p>\n<h3>Supply issues</h3>\n<p>Uptake is now seen in all regions but has been inhibited by the initial stock issues.</p>\n<h3>Defined daily dose</h3>\n<p>0.33mg</p>\n<h3>Uptake summary</h3>\n<p>Uptake is generally good and the supply issues affecting the South West and East of England regions in May have now resolved.</p>\n<h3>Other issues</h3>\n<p>Nil</p>\n",
+            "sha256": "73cbe475db5b7113846ac53afa9704f413b303e33f175f9b78d1b6c52a22fc99"
+        },
+        {
+            "title": "Denosumab 60mg - Select and compare non DDD",
+            "text": "<h2>Denosumab 60mg</h2>\n<h3>Indications</h3>\n<p>Treatment of osteoporosis and bone loss in selected patient cohorts as per licensed indications.</p>\n<h3>Presentations</h3>\n<p>Denosumab 60mg is available as pre-filled syringes</p>\n<h3>Baseline spend</h3>\n<p>£10 million</p>\n<h3>Contract start</h3>\n<p>January 2026</p>\n<h3>Supply issues</h3>\n<p><span class=\"NormalTextRun SCXW136414614 BCX8\">Uptake is now seen in all regions but has been inhibited by the </span><span class=\"NormalTextRun SCXW136414614 BCX8\">initial</span><span class=\"NormalTextRun SCXW136414614 BCX8\"> stock issues. </span></p>\n",
+            "sha256": "8d7539f6ee9ef2a243650da052e647cfa4f56a94322fac255e0167997d854bbb"
+        },
+        {
+            "title": "Denosumab 120mg DDD",
+            "text": "<h2>Denosumab 120mg</h2>\n<h3>Indications</h3>\n<p>Prevention of skeletal-related events in adults with bone malignancies and treatment of giant cell tumours of bone</p>\n<h3>Presentations</h3>\n<p>Denosumab 120mg is available as pre-filled syringes and vials</p>\n<h3>Baseline spend</h3>\n<p>£26 million</p>\n<h3>Contract start</h3>\n<p>January 2026</p>\n<h3>Supply issues</h3>\n<p>Supplies of the biosimilar 120mg pre-filled syringe (PFS) are being regulated to avoid over-ordering. Supplies of the biosimilar 120mg vial, where available, are being monitored in case of preferential use compared to the PFS going forward. <span class=\"NormalTextRun SCXW37408162 BCX8\">Supply const</span><span class=\"NormalTextRun SCXW37408162 BCX8\">raints are still</span><span class=\"NormalTextRun SCXW37408162 BCX8\"> </span><span class=\"NormalTextRun SCXW37408162 BCX8\">affecti</span><span class=\"NormalTextRun SCXW37408162 BCX8\">ng</span><span class=\"NormalTextRun SCXW37408162 BCX8\"> some regions.</span></p>\n<h3>Defined daily dose</h3>\n<p>0.33mg</p>\n<h3>Uptake summary</h3>\n<p>Regional uptake is now good overall.</p>\n<h3>Other issues</h3>\n<p>The savings assumptions and adoption curves have been set using a target price that sits just above all the available biosimilar 120mg products. In some cases this may under-report the maximum savings potential where a regionally awarded 120mg product was available at a lower price. This was unavoidable given the mixture of products in use and the unpredictable market share between the vial and pre-filled syringe presentations.</p>\n<h3>Chart</h3>\n",
+            "sha256": "1b620389701737bd1a6bc341f47eca9ecb16bf4453b855676a6fd8dcad6f2277"
+        },
+        {
+            "title": "Denosumab 120mg - Everywhere non DDD",
+            "text": "<h2>Denosumab 120mg</h2>\n<h3>Indications</h3>\n<p>Prevention of skeletal-related events in adults with bone malignancies and treatment of giant cell tumours of bone</p>\n<h3>Presentations</h3>\n<p>Denosumab 120mg is available as pre-filled syringes and vials</p>\n<h3>Baseline spend</h3>\n<p>£26 million</p>\n<h3>Contract start</h3>\n<p>January 2026</p>\n<h3>Supply issues</h3>\n<p>Supplies of the biosimilar 120mg pre-filled syringe (PFS) are being regulated to avoid over-ordering. Supplies of the biosimilar 120mg vial, where available, are being monitored in case of preferential use compared to the PFS going forward. <span class=\"NormalTextRun SCXW37408162 BCX8\">Supply const</span><span class=\"NormalTextRun SCXW37408162 BCX8\">raints are still</span><span class=\"NormalTextRun SCXW37408162 BCX8\"> </span><span class=\"NormalTextRun SCXW37408162 BCX8\">affecti</span><span class=\"NormalTextRun SCXW37408162 BCX8\">ng</span><span class=\"NormalTextRun SCXW37408162 BCX8\"> some regions.</span></p>\n<h3>Chart</h3>\n",
+            "sha256": "5c54adbf0fc7d9aff13a6351872c925003ff3cf0e61c13924ba6c1b9f98427e1"
+        },
+        {
+            "title": "Denosumab 120mg - Select and compare DDD",
+            "text": "<h2>Denosumab 120mg</h2>\n<h3>Indications</h3>\n<p>Prevention of skeletal-related events in adults with bone malignancies and treatment of giant cell tumours of bone</p>\n<h3>Presentations</h3>\n<p>Denosumab 120mg is available as pre-filled syringes and vials</p>\n<h3>Baseline spend</h3>\n<p>£26 million</p>\n<h3>Contract start</h3>\n<p>January 2026</p>\n<h3>Supply issues</h3>\n<p>Supplies of the biosimilar 120mg pre-filled syringe (PFS) are being regulated to avoid over-ordering. Supplies of the biosimilar 120mg vial, where available, are being monitored in case of preferential use compared to the PFS going forward. <span class=\"NormalTextRun SCXW37408162 BCX8\">Supply const</span><span class=\"NormalTextRun SCXW37408162 BCX8\">raints are still</span><span class=\"NormalTextRun SCXW37408162 BCX8\"> </span><span class=\"NormalTextRun SCXW37408162 BCX8\">affecti</span><span class=\"NormalTextRun SCXW37408162 BCX8\">ng</span><span class=\"NormalTextRun SCXW37408162 BCX8\"> some regions.</span></p>\n<h3>Defined daily dose</h3>\n<p>0.33mg</p>\n<h3>Uptake summary</h3>\n<p>Regional uptake is now good overall.</p>\n<h3>Other issues</h3>\n<p>The savings assumptions and adoption curves have been set using a target price that sits just above all the available biosimilar 120mg products. In some cases this may under-report the maximum savings potential where a regionally awarded 120mg product was available at a lower price. This was unavoidable given the mixture of products in use and the unpredictable market share between the vial and pre-filled syringe presentations.</p>\n",
+            "sha256": "31cb72855b7a32f21f0721b5aff3dc8acfb5257bf68bfb73458010dacf17384b"
+        },
+        {
+            "title": "Denosumab 120mg - Select and compare non DDD",
+            "text": "<h2>Denosumab 120mg</h2>\n<h3>Indications</h3>\n<p>Prevention of skeletal-related events in adults with bone malignancies and treatment of giant cell tumours of bone</p>\n<h3>Presentations</h3>\n<p>Denosumab 120mg is available as pre-filled syringes and vials</p>\n<h3>Baseline spend</h3>\n<p>£26 million</p>\n<h3>Contract start</h3>\n<p>January 2026</p>\n<h3>Supply issues</h3>\n<p>Supplies of the biosimilar 120mg pre-filled syringe (PFS) are being regulated to avoid over-ordering. Supplies of the biosimilar 120mg vial, where available, are being monitored in case of preferential use compared to the PFS going forward. <span class=\"NormalTextRun SCXW37408162 BCX8\">Supply const</span><span class=\"NormalTextRun SCXW37408162 BCX8\">raints are still</span><span class=\"NormalTextRun SCXW37408162 BCX8\"> </span><span class=\"NormalTextRun SCXW37408162 BCX8\">affecti</span><span class=\"NormalTextRun SCXW37408162 BCX8\">ng</span><span class=\"NormalTextRun SCXW37408162 BCX8\"> some regions.</span></p>\n",
+            "sha256": "7318db5d74df79bb30dbfc4944ae8edea84a88243e7a0a1cef0f4282772d40db"
+        },
+        {
+            "title": "Apremilast DDD",
+            "text": "<h2>Apremilast</h2>\n<h3>Indications</h3>\n<p>Psoriatic arthritis, psoriasis, and behçet&#8217;s disease</p>\n<h3>Presentations</h3>\n<p>Apremilast is available as 30mg tablets</p>\n<h3>Baseline spend</h3>\n<p>£12 million</p>\n<h3>Contract start</h3>\n<p>February 2026</p>\n<h3>Supply issues</h3>\n<p>None</p>\n<h3>Defined daily dose</h3>\n<p>60mg</p>\n<h3>Uptake summary</h3>\n<p>Good progress now being in nearly all regions. <span class=\"TextRun SCXW151966440 BCX8\" lang=\"EN-GB\" xml:lang=\"EN-GB\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW151966440 BCX8\">There is a slight uptick in East of England that needs looking into.</span></span></p>\n<h3>Other issues</h3>\n<p>Other strengths of apremilast do exist but only the 30mg tablet is used in practice. Supply is mainly via the homecare route which causes a lag in the apparent rate of switching.</p>\n<h3>Chart</h3>\n",
+            "sha256": "24e58ccc6badce103268056e3ba7399e0f272a78bd4834154ef76400f26aed0c"
+        },
+        {
+            "title": "Apremilast - Everywhere non DDD",
+            "text": "<h2>Apremilast</h2>\n<h3>Indications</h3>\n<p>Psoriatic arthritis, psoriasis, and behçet&#8217;s disease</p>\n<h3>Presentations</h3>\n<p>Apremilast is available as 30mg tablets</p>\n<h3>Baseline spend</h3>\n<p>£12 million</p>\n<h3>Contract start</h3>\n<p>February 2026</p>\n<h3>Supply issues</h3>\n<p>None</p>\n<h3>Chart</h3>\n",
+            "sha256": "6a1843c1aeb3ad8f62a8ea9877ffb450bc732d96b8067c491b1a7d292779e5fa"
+        },
+        {
+            "title": "Apremilast - Select and compare DDD",
+            "text": "<h2>Apremilast</h2>\n<h3>Indications</h3>\n<p>Psoriatic arthritis, psoriasis, and behçet&#8217;s disease</p>\n<h3>Presentations</h3>\n<p>Apremilast is available as 30mg tablets</p>\n<h3>Baseline spend</h3>\n<p>£12 million</p>\n<h3>Contract start</h3>\n<p>February 2026</p>\n<h3>Supply issues</h3>\n<p>None</p>\n<h3>Defined daily dose</h3>\n<p>60mg</p>\n<h3>Uptake summary</h3>\n<p>Good progress now being in nearly all regions. There is a slight uptick in East of England that needs looking into.</p>\n<h3>Other issues</h3>\n<p>Other strengths of apremilast do exist but only the 30mg tablet is used in practice. Supply is mainly via the homecare route which causes a lag in the apparent rate of switching.</p>\n",
+            "sha256": "38d879160fd4d890f266fda94e86e97d3a43e35e27952c2d09569dc13ed008d9"
+        },
+        {
+            "title": "Apremilast - Select and compare non DDD",
+            "text": "<h2>Apremilast</h2>\n<h3>Indications</h3>\n<p>Psoriatic arthritis, psoriasis, and behçet&#8217;s disease</p>\n<h3>Presentations</h3>\n<p>Apremilast is available as 30mg tablets</p>\n<h3>Baseline spend</h3>\n<p>£12 million</p>\n<h3>Contract start</h3>\n<p>February 2026</p>\n<h3>Supply issues</h3>\n<p>None</p>\n",
+            "sha256": "da571bbb0670614d0b0d6e4e0c308aea87b29372e45e38ebd000d53747cb5431"
+        },
+        {
+            "title": "Omalizumab - DDD",
+            "text": "<h2>Omalizumab</h2>\n<h3>Indications</h3>\n<p>Allergic asthma, chronic spontaneous urticaria</p>\n<h3>Presentations</h3>\n<p>Omalizumab is available as a 75mg and 150 mg pre-filled syringe and pen</p>\n<h3>Baseline spend</h3>\n<p>£37 million</p>\n<h3>Contract start</h3>\n<p>February 2026</p>\n<h3>Supply issues</h3>\n<p>Supply was available pre-contract start, but since the tender went live the available volumes have been limited which will restrict uptake seen across the regions.</p>\n<h3>Defined daily dose</h3>\n<p>16mg</p>\n<h3>Uptake summary</h3>\n<p>Uptake can be seen in most regions, but continues to be inhibited by the reduced volumes available from the biosimilar supplier. This situation is set to improve in July.</p>\n<h3>Other issues</h3>\n<p>The 300mg strength will be available as a biosimilar in approximately 3 to 4 months&#8217; time.</p>\n<h3>Chart</h3>\n",
+            "sha256": "e51bf583763553d23c3215d73e5bda4ed6522899e59cbb8d58d5be861b3802f1"
+        },
+        {
+            "title": "Omalizumab - non DDD",
+            "text": "<h2>Omalizumab</h2>\n<h3>Indications</h3>\n<p>Allergic asthma, chronic spontaneous urticaria</p>\n<h3>Presentations</h3>\n<p>Omalizumab is available as a 75mg and 150 mg pre-filled syringe and pen</p>\n<h3>Baseline spend</h3>\n<p>£37 million</p>\n<h3>Contract start</h3>\n<p>February 2026</p>\n<h3>Supply issues</h3>\n<p>Supply was available pre-contract start, but since the tender went live the available volumes have been limited which will restrict uptake seen across the regions.</p>\n<h3>Chart</h3>\n",
+            "sha256": "28ea406e5f6bf3890c7942d446d8da7087dcecf25a65980275f55638427c11ac"
+        },
+        {
+            "title": "Omalizumab - Select and compare DDD",
+            "text": "<h2>Omalizumab</h2>\n<h3>Indications</h3>\n<p>Allergic asthma, chronic spontaneous urticaria</p>\n<h3>Presentations</h3>\n<p>Omalizumab is available as a 75mg and 150 mg pre-filled syringe and pen</p>\n<h3>Baseline spend</h3>\n<p>£37 million</p>\n<h3>Contract start</h3>\n<p>February 2026</p>\n<h3>Supply issues</h3>\n<p>Supply was available pre-contract start, but since the tender went live the available volumes have been limited which will restrict uptake seen across the regions.</p>\n<h3>Defined daily dose</h3>\n<p>16mg</p>\n<h3>Uptake summary</h3>\n<p>Uptake can be seen in most regions, but continues to be inhibited by the reduced volumes available from the biosimilar supplier. This situation is set to improve in July.</p>\n<h3>Other issues</h3>\n<p>The 300mg strength will be available as a biosimilar in approximately 3 to 4 months&#8217; time.</p>\n",
+            "sha256": "e9e4d0cc0455f11c2c1de1353de685254ada30d15de3701bd481f04634766716"
+        },
+        {
+            "title": "Omalizumab - Select and compare non DDD",
+            "text": "<h2>Omalizumab</h2>\n<h3>Indications</h3>\n<p>Allergic asthma, chronic spontaneous urticaria</p>\n<h3>Presentations</h3>\n<p>Omalizumab is available as a 75mg and 150 mg pre-filled syringe and pen</p>\n<h3>Baseline spend</h3>\n<p>£37 million</p>\n<h3>Contract start</h3>\n<p>February 2026</p>\n<h3>Supply issues</h3>\n<p>Supply was available pre-contract start, but since the tender went live the available volumes have been limited which will restrict uptake seen across the regions.</p>\n",
+            "sha256": "d80efa4b6e4e4207085cc9ea50eb854b7d5c1f2d4e7217ffef8c48c278be834d"
+        },
+        {
+            "title": "Nintedanib - DDD",
+            "text": "<h2>Nintedanib</h2>\n<h3>Indications</h3>\n<p>Idiopathic pulmonary fibrosis and non-small cell lung cancer</p>\n<h3>Presentations</h3>\n<p>Nintedanib is available as 100mg and 150mg capsules</p>\n<h3>Baseline spend</h3>\n<p>£92 million</p>\n<h3>Contract start</h3>\n<p>May 2026</p>\n<h3>Supply issues</h3>\n<p>Not all strengths were available in all regions from the start of tender.</p>\n<h3>Defined daily dose</h3>\n<p>380mg</p>\n<h3>Uptake summary</h3>\n<p><span class=\"TextRun SCXW94853886 BCX8\" lang=\"EN-GB\" xml:lang=\"EN-GB\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW94853886 BCX8\">Generic </span><span class=\"NormalTextRun SCXW94853886 BCX8\">progress being made in all regions.</span></span><span class=\"EOP Selected SCXW94853886 BCX8\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335557856&quot;:16777215,&quot;335559738&quot;:315,&quot;335559739&quot;:120,&quot;335559740&quot;:240,&quot;335572071&quot;:6,&quot;335572072&quot;:3,&quot;335572073&quot;:14671581,&quot;469789798&quot;:&quot;dotted&quot;}\"> </span></p>\n<h3>Other issues</h3>\n<p>Nintedanib has two different indications. For Idiopathic pulmonary fibrosis usage is seen at specialist centres only and supply is typically via the homecare route. This is where the vast majority of nintedanib usage comes from.<br />\nFor non-small cell lung cancer much lower quantities are issued nationally but from a far wider range of Trusts. This usage usually comes via the standard outpatient pharmacy route.</p>\n<h3>Chart</h3>\n",
+            "sha256": "ba7ae8b595b1b4789ad06c89ea3b497f6e5fcc1fd447709a0a6c3cd56554eacb"
+        },
+        {
+            "title": "Nintedanib - non DDD",
+            "text": "<h2>Nintedanib</h2>\n<h3>Indications</h3>\n<p>Idiopathic pulmonary fibrosis and non-small cell lung cancer</p>\n<h3>Presentations</h3>\n<p>Nintedanib is available as 100mg and 150mg capsules</p>\n<h3>Baseline spend</h3>\n<p>£92 million</p>\n<h3>Contract start</h3>\n<p>May 2026</p>\n<h3>Supply issues</h3>\n<p>Not all strengths were available in all regions from the start of tender.</p>\n<h3>Chart</h3>\n",
+            "sha256": "9deda3e9882b68ef2c747570ecf3841aacc1149c83594d35821765c6f712d651"
+        },
+        {
+            "title": "Nintedanib - Select and compare DDD",
+            "text": "<h2>Nintedanib</h2>\n<h3>Indications</h3>\n<p>Idiopathic pulmonary fibrosis and non-small cell lung cancer</p>\n<h3>Presentations</h3>\n<p>Nintedanib is available as 100mg and 150mg capsules</p>\n<h3>Baseline spend</h3>\n<p>£92 million</p>\n<h3>Contract start</h3>\n<p>May 2026</p>\n<h3>Supply issues</h3>\n<p>Not all strengths were available in all regions from the start of tender.</p>\n<h3>Defined daily dose</h3>\n<p>380mg</p>\n<h3>Uptake summary</h3>\n<p><span class=\"TextRun SCXW94853886 BCX8\" lang=\"EN-GB\" xml:lang=\"EN-GB\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW94853886 BCX8\">Generic </span><span class=\"NormalTextRun SCXW94853886 BCX8\">progress being made in all regions.</span></span><span class=\"EOP Selected SCXW94853886 BCX8\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335557856&quot;:16777215,&quot;335559738&quot;:315,&quot;335559739&quot;:120,&quot;335559740&quot;:240,&quot;335572071&quot;:6,&quot;335572072&quot;:3,&quot;335572073&quot;:14671581,&quot;469789798&quot;:&quot;dotted&quot;}\"> </span>.</p>\n<h3>Other issues</h3>\n<p>Nintedanib has two different indications. For Idiopathic pulmonary fibrosis usage is seen at specialist centres only and supply is typically via the homecare route. This is where the vast majority of nintedanib usage comes from. For non-small cell lung cancer much lower quantities are issued nationally but from a far wider range of Trusts. This usage usually comes via the standard outpatient pharmacy route.</p>\n",
+            "sha256": "babe5e3dd4859ec2d258747435da476c9f459903c70d9f4e3fb17a92e9c7e54e"
+        },
+        {
+            "title": "Nintedanib - Select and compare non DDD",
+            "text": "<h2>Nintedanib</h2>\n<h3>Indications</h3>\n<p>Idiopathic pulmonary fibrosis and non-small cell lung cancer</p>\n<h3>Presentations</h3>\n<p>Nintedanib is available as 100mg and 150mg capsules</p>\n<h3>Baseline spend</h3>\n<p>£92 million</p>\n<h3>Contract start</h3>\n<p>May 2026</p>\n<h3>Supply issues</h3>\n<p>Not all strengths were available in all regions from the start of tender.</p>\n",
+            "sha256": "a7431102b3c4b946c1eebb9df4090d36eddd5acd735122e00f354aba76dfd288"
+        }
+    ],
+    "presets_sha256": "70a6025395e1144ea88f9ba43882241c2c0e4c4984b6288702bb8984cd69a6a1"
+}

@@ -1,0 +1,223 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/zaltek-digital/kme-exporter/schema/manifest.schema.json",
+  "title": "KME export bundle manifest (manifest.json)",
+  "type": "object",
+  "required": [
+    "schema",
+    "schema_version",
+    "generator",
+    "generated_at",
+    "site",
+    "counts",
+    "change_index",
+    "orphan_archives"
+  ],
+  "properties": {
+    "schema": {
+      "const": "kme-export"
+    },
+    "schema_version": {
+      "type": "string",
+      "pattern": "^1\\.[0-9]+$"
+    },
+    "generator": {
+      "type": "object",
+      "required": [
+        "name",
+        "version"
+      ],
+      "properties": {
+        "name": {
+          "const": "kme-exporter"
+        },
+        "version": {
+          "type": "string"
+        }
+      }
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "site": {
+      "type": "object",
+      "required": [
+        "name",
+        "home",
+        "siteurl",
+        "wp_version",
+        "page_on_front",
+        "page_for_posts",
+        "permalink_structure",
+        "theme"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "home": {
+          "type": "string"
+        },
+        "siteurl": {
+          "type": "string"
+        },
+        "wp_version": {
+          "type": "string"
+        },
+        "page_on_front": {
+          "type": "integer",
+          "description": "Source ID of the front page, 0 if none."
+        },
+        "page_for_posts": {
+          "type": "integer"
+        },
+        "permalink_structure": {
+          "type": "string"
+        },
+        "theme": {
+          "type": "object",
+          "required": [
+            "stylesheet",
+            "version"
+          ],
+          "properties": {
+            "stylesheet": {
+              "type": "string"
+            },
+            "version": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "counts": {
+      "type": "object",
+      "required": [
+        "items",
+        "revisions",
+        "media_files",
+        "media_missing",
+        "archives_chained",
+        "archives_orphaned",
+        "pending_copies",
+        "presets"
+      ],
+      "properties": {
+        "items": {
+          "type": "object",
+          "description": "Item counts keyed by post type, then status.",
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "revisions": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "media_files": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "media_missing": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "archives_chained": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "archives_orphaned": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "pending_copies": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "presets": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "change_index": {
+      "type": "array",
+      "description": "One row per item, in source-ID order. SPS2 compares content_sha256 to decide what to update on a re-import.",
+      "items": {
+        "type": "object",
+        "required": [
+          "source_id",
+          "type",
+          "status",
+          "parent",
+          "modified_gmt",
+          "content_sha256"
+        ],
+        "properties": {
+          "source_id": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "type": {
+            "enum": [
+              "page",
+              "post",
+              "attachment"
+            ]
+          },
+          "status": {
+            "type": "string"
+          },
+          "parent": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "modified_gmt": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "content_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        }
+      }
+    },
+    "orphan_archives": {
+      "type": "array",
+      "description": "Archived posts no exported item chains to (removed molecules, or the history of reports new ones were copied from).",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "parent"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "title": {
+            "type": "string"
+          },
+          "parent": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

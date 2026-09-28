@@ -1,0 +1,22 @@
+[
+    {
+        "login": "author-1",
+        "email": "author-1@example.invalid",
+        "display_name": "Author 1"
+    },
+    {
+        "login": "author-404",
+        "email": "author-404@example.invalid",
+        "display_name": "Author 404"
+    },
+    {
+        "login": "author-2",
+        "email": "author-2@example.invalid",
+        "display_name": "Author 2"
+    },
+    {
+        "login": "author-546",
+        "email": "author-546@example.invalid",
+        "display_name": "Author 546"
+    }
+]

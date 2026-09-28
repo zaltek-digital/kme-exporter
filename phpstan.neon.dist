@@ -1,0 +1,17 @@
+parameters:
+  level: 6
+  paths:
+    - kme-exporter.php
+    - includes
+  bootstrapFiles:
+    # Runtime plugin constants that the main file defines before the analysed
+    # classes load.
+    - tools/phpstan-bootstrap.php
+  scanFiles:
+    # WP-CLI classes for includes/class-kme-exporter-cli.php.
+    - vendor/php-stubs/wp-cli-stubs/wp-cli-stubs.php
+  excludePaths:
+    - vendor/*
+    - tests/*
+  # WordPress core stubs come from szepeviktor/phpstan-wordpress, registered via
+  # phpstan/extension-installer.

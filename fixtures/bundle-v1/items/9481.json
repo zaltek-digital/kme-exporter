@@ -1,0 +1,114 @@
+{
+    "source_id": 9481,
+    "type": "post",
+    "status": "publish",
+    "slug": "check-performance-of-nintedanib-for-trusts",
+    "title": "Check performance of nintedanib for Trusts",
+    "parent": null,
+    "menu_order": 0,
+    "url_path": "/check-performance-of-nintedanib-for-trusts/",
+    "link": "https://kme.test/check-performance-of-nintedanib-for-trusts/",
+    "template": "",
+    "content_raw": "<!-- wp:create-block/todo-list {\"text\":\"Intrdouction to adoption curves - Moderate\"} -->\n<p class=\"wp-block-create-block-todo-list\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/todo-list -->\n\n<!-- wp:create-block/todo-list {\"text\":\"Nintedanib - Select and compare DDD\"} -->\n<p class=\"wp-block-create-block-todo-list\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/todo-list -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Charts</h2>\n<!-- /wp:heading -->\n\n<!-- wp:create-block/todo-list {\"text\":\"East of England - select and compare\"} -->\n<p class=\"wp-block-create-block-todo-list\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/todo-list -->\n\n<!-- wp:create-block/kme-embed {\"iframe_url\":\"https://kme.sps.direct/grouped_by_trust/Adoption/?selected_tab=graph\\u0026selected_molecule=nintedanib\\u0026selected_nhse=east_of_england\\u0026selected_ics=bedfordshire_luton_and_milton_keynes\\u0026selected_trusts=RC9,RD8\\u0026hide_nhse=true\\u0026hide_molecule=true\\u0026production=true\"} -->\n<p class=\"wp-block-create-block-kme-embed\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/kme-embed -->\n\n<!-- wp:create-block/todo-list {\"text\":\"North East England and Yorkshire  - select and compare\"} -->\n<p class=\"wp-block-create-block-todo-list\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/todo-list -->\n\n<!-- wp:create-block/kme-embed {\"iframe_url\":\"https://kme.sps.direct/grouped_by_trust/Adoption/?selected_tab=graph\\u0026selected_molecule=nintedanib\\u0026selected_nhse=north_east_and_yorkshire\\u0026selected_ics=humber_and_north_yorkshire\\u0026selected_trusts=RCD,RWA,RV9,RJL,RCB\\u0026hide_nhse=true\\u0026hide_molecule=true\\u0026production=true\"} -->\n<p class=\"wp-block-create-block-kme-embed\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/kme-embed -->\n\n<!-- wp:create-block/todo-list {\"text\":\"North West England - select and compare\"} -->\n<p class=\"wp-block-create-block-todo-list\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/todo-list -->\n\n<!-- wp:create-block/kme-embed {\"iframe_url\":\"https://kme.sps.direct/grouped_by_trust/Adoption/?selected_tab=graph\\u0026selected_molecule=nintedanib\\u0026selected_nhse=north_west\\u0026selected_ics=cheshire_and_merseyside\\u0026selected_trusts=RBS,RXA,REN,RJR,RJN,RBQ,REM,REP,RBN,RW4,RBT,RET,RWW,RBL\\u0026hide_nhse=true\\u0026hide_molecule=true\\u0026production=true\"} -->\n<p class=\"wp-block-create-block-kme-embed\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/kme-embed -->\n\n<!-- wp:create-block/todo-list {\"text\":\"The Midlands - select and compare\"} -->\n<p class=\"wp-block-create-block-todo-list\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/todo-list -->\n\n<!-- wp:create-block/kme-embed {\"iframe_url\":\"https://kme.sps.direct/grouped_by_trust/Adoption/?selected_tab=graph\\u0026selected_molecule=nintedanib\\u0026selected_nhse=midlands\\u0026selected_ics=birmingham_and_solihull\\u0026selected_trusts=RXT,RYW,RQ3,RRJ,RRK\\u0026hide_nhse=true\\u0026hide_molecule=true\\u0026production=true\"} -->\n<p class=\"wp-block-create-block-kme-embed\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/kme-embed -->\n\n<!-- wp:create-block/todo-list {\"text\":\"London - select and compare\"} -->\n<p class=\"wp-block-create-block-todo-list\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/todo-list -->\n\n<!-- wp:create-block/kme-embed {\"iframe_url\":\"https://kme.sps.direct/grouped_by_trust/Adoption/?selected_tab=graph\\u0026selected_molecule=nintedanib\\u0026selected_nhse=london\\u0026selected_ics=north_central_london\\u0026selected_trusts=RV3,RP4,RP6,G6V2S,RAL,RAN,RKE,RRV\\u0026hide_nhse=true\\u0026hide_molecule=true\\u0026production=true\"} -->\n<p class=\"wp-block-create-block-kme-embed\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/kme-embed -->\n\n<!-- wp:create-block/todo-list {\"text\":\"South East England - select and compare\"} -->\n<p class=\"wp-block-create-block-todo-list\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/todo-list -->\n\n<!-- wp:create-block/kme-embed {\"iframe_url\":\"https://kme.sps.direct/grouped_by_trust/Adoption/?selected_tab=graph\\u0026selected_molecule=nintedanib\\u0026selected_nhse=south_east\\u0026selected_ics=buckinghamshire_oxfordshire_and_berkshire_west\\u0026selected_trusts=RXQ,RNU,RTH,RHW\\u0026hide_nhse=true\\u0026hide_molecule=true\\u0026production=true\"} -->\n<p class=\"wp-block-create-block-kme-embed\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/kme-embed -->\n\n<!-- wp:create-block/todo-list {\"text\":\"South West England - select and compare\"} -->\n<p class=\"wp-block-create-block-todo-list\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/todo-list -->\n\n<!-- wp:create-block/kme-embed {\"iframe_url\":\"https://kme.sps.direct/grouped_by_trust/Adoption/?selected_tab=graph\\u0026selected_molecule=nintedanib\\u0026selected_nhse=south_west\\u0026selected_ics=bath_and_north_east_somerset_swindon_and_wiltshire\\u0026selected_trusts=RVN,RN3,RD1,RNZ\\u0026hide_nhse=true\\u0026hide_molecule=true\\u0026production=true\"} -->\n<p class=\"wp-block-create-block-kme-embed\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/kme-embed -->",
+    "excerpt": "",
+    "date_gmt": "2026-06-11T08:42:22+00:00",
+    "modified_gmt": "2026-06-11T08:42:23+00:00",
+    "author": {
+        "login": "author-404",
+        "email": "author-404@example.invalid"
+    },
+    "featured_media": null,
+    "attachments": [],
+    "meta": {
+        "footnotes": [
+            ""
+        ]
+    },
+    "acf": {
+        "change_history": false,
+        "date_extracted": "20260608",
+        "parent": [
+            9470
+        ],
+        "summary": "Check performance of nintedanib for individual Trusts within each region from contract start date."
+    },
+    "terms": {
+        "category": [
+            "adoption-curve-charts"
+        ],
+        "post_tag": [
+            "nintedanib"
+        ]
+    },
+    "original_post_id": null,
+    "embeds": [
+        {
+            "block": "create-block/kme-embed",
+            "path": "8",
+            "src": "https://kme.sps.direct/grouped_by_trust/Adoption/?selected_tab=graph&selected_molecule=nintedanib&selected_nhse=east_of_england&selected_ics=bedfordshire_luton_and_milton_keynes&selected_trusts=RC9,RD8&hide_nhse=true&hide_molecule=true&production=true"
+        },
+        {
+            "block": "create-block/kme-embed",
+            "path": "12",
+            "src": "https://kme.sps.direct/grouped_by_trust/Adoption/?selected_tab=graph&selected_molecule=nintedanib&selected_nhse=north_east_and_yorkshire&selected_ics=humber_and_north_yorkshire&selected_trusts=RCD,RWA,RV9,RJL,RCB&hide_nhse=true&hide_molecule=true&production=true"
+        },
+        {
+            "block": "create-block/kme-embed",
+            "path": "16",
+            "src": "https://kme.sps.direct/grouped_by_trust/Adoption/?selected_tab=graph&selected_molecule=nintedanib&selected_nhse=north_west&selected_ics=cheshire_and_merseyside&selected_trusts=RBS,RXA,REN,RJR,RJN,RBQ,REM,REP,RBN,RW4,RBT,RET,RWW,RBL&hide_nhse=true&hide_molecule=true&production=true"
+        },
+        {
+            "block": "create-block/kme-embed",
+            "path": "20",
+            "src": "https://kme.sps.direct/grouped_by_trust/Adoption/?selected_tab=graph&selected_molecule=nintedanib&selected_nhse=midlands&selected_ics=birmingham_and_solihull&selected_trusts=RXT,RYW,RQ3,RRJ,RRK&hide_nhse=true&hide_molecule=true&production=true"
+        },
+        {
+            "block": "create-block/kme-embed",
+            "path": "24",
+            "src": "https://kme.sps.direct/grouped_by_trust/Adoption/?selected_tab=graph&selected_molecule=nintedanib&selected_nhse=london&selected_ics=north_central_london&selected_trusts=RV3,RP4,RP6,G6V2S,RAL,RAN,RKE,RRV&hide_nhse=true&hide_molecule=true&production=true"
+        },
+        {
+            "block": "create-block/kme-embed",
+            "path": "28",
+            "src": "https://kme.sps.direct/grouped_by_trust/Adoption/?selected_tab=graph&selected_molecule=nintedanib&selected_nhse=south_east&selected_ics=buckinghamshire_oxfordshire_and_berkshire_west&selected_trusts=RXQ,RNU,RTH,RHW&hide_nhse=true&hide_molecule=true&production=true"
+        },
+        {
+            "block": "create-block/kme-embed",
+            "path": "32",
+            "src": "https://kme.sps.direct/grouped_by_trust/Adoption/?selected_tab=graph&selected_molecule=nintedanib&selected_nhse=south_west&selected_ics=bath_and_north_east_somerset_swindon_and_wiltshire&selected_trusts=RVN,RN3,RD1,RNZ&hide_nhse=true&hide_molecule=true&production=true"
+        }
+    ],
+    "links": [],
+    "blocks_used": {
+        "core/heading": 1,
+        "create-block/kme-embed": 7,
+        "create-block/todo-list": 9
+    },
+    "presets_used": [
+        "Intrdouction to adoption curves - Moderate",
+        "Nintedanib - Select and compare DDD",
+        "East of England - select and compare",
+        "North East England and Yorkshire  - select and compare",
+        "North West England - select and compare",
+        "The Midlands - select and compare",
+        "London - select and compare",
+        "South East England - select and compare",
+        "South West England - select and compare"
+    ],
+    "rendered": {},
+    "revisions": [
+        {
+            "revision_id": 9488,
+            "date_gmt": "2026-06-11T08:21:18+00:00",
+            "author": {
+                "login": "author-404",
+                "email": "author-404@example.invalid"
+            },
+            "title": "Check performance of nintedanib for Trusts",
+            "excerpt": "",
+            "content_raw": "<!-- wp:create-block/todo-list {\"text\":\"Intrdouction to adoption curves - Moderate\"} -->\n<p class=\"wp-block-create-block-todo-list\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/todo-list -->\n\n<!-- wp:create-block/todo-list {\"text\":\"Nintedanib - Select and compare DDD\"} -->\n<p class=\"wp-block-create-block-todo-list\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/todo-list -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Charts</h2>\n<!-- /wp:heading -->\n\n<!-- wp:create-block/todo-list {\"text\":\"East of England - select and compare\"} -->\n<p class=\"wp-block-create-block-todo-list\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/todo-list -->\n\n<!-- wp:create-block/kme-embed {\"iframe_url\":\"https://kme.sps.direct/grouped_by_trust/Adoption/?selected_tab=graph\\u0026selected_molecule=nintedanib\\u0026selected_nhse=east_of_england\\u0026selected_ics=bedfordshire_luton_and_milton_keynes\\u0026selected_trusts=RC9,RD8\\u0026hide_nhse=true\\u0026hide_molecule=true\\u0026production=true\"} -->\n<p class=\"wp-block-create-block-kme-embed\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/kme-embed -->\n\n<!-- wp:create-block/todo-list {\"text\":\"North East England and Yorkshire  - select and compare\"} -->\n<p class=\"wp-block-create-block-todo-list\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/todo-list -->\n\n<!-- wp:create-block/kme-embed {\"iframe_url\":\"https://kme.sps.direct/grouped_by_trust/Adoption/?selected_tab=graph\\u0026selected_molecule=nintedanib\\u0026selected_nhse=north_east_and_yorkshire\\u0026selected_ics=humber_and_north_yorkshire\\u0026selected_trusts=RCD,RWA,RV9,RJL,RCB\\u0026hide_nhse=true\\u0026hide_molecule=true\\u0026production=true\"} -->\n<p class=\"wp-block-create-block-kme-embed\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/kme-embed -->\n\n<!-- wp:create-block/todo-list {\"text\":\"North West England - select and compare\"} -->\n<p class=\"wp-block-create-block-todo-list\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/todo-list -->\n\n<!-- wp:create-block/kme-embed {\"iframe_url\":\"https://kme.sps.direct/grouped_by_trust/Adoption/?selected_tab=graph\\u0026selected_molecule=nintedanib\\u0026selected_nhse=north_west\\u0026selected_ics=cheshire_and_merseyside\\u0026selected_trusts=RBS,RXA,REN,RJR,RJN,RBQ,REM,REP,RBN,RW4,RBT,RET,RWW,RBL\\u0026hide_nhse=true\\u0026hide_molecule=true\\u0026production=true\"} -->\n<p class=\"wp-block-create-block-kme-embed\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/kme-embed -->\n\n<!-- wp:create-block/todo-list {\"text\":\"The Midlands - select and compare\"} -->\n<p class=\"wp-block-create-block-todo-list\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/todo-list -->\n\n<!-- wp:create-block/kme-embed {\"iframe_url\":\"https://kme.sps.direct/grouped_by_trust/Adoption/?selected_tab=graph\\u0026selected_molecule=nintedanib\\u0026selected_nhse=midlands\\u0026selected_ics=birmingham_and_solihull\\u0026selected_trusts=RXT,RYW,RQ3,RRJ,RRK\\u0026hide_nhse=true\\u0026hide_molecule=true\\u0026production=true\"} -->\n<p class=\"wp-block-create-block-kme-embed\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/kme-embed -->\n\n<!-- wp:create-block/todo-list {\"text\":\"London - select and compare\"} -->\n<p class=\"wp-block-create-block-todo-list\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/todo-list -->\n\n<!-- wp:create-block/kme-embed {\"iframe_url\":\"https://kme.sps.direct/grouped_by_trust/Adoption/?selected_tab=graph\\u0026selected_molecule=nintedanib\\u0026selected_nhse=london\\u0026selected_ics=north_central_london\\u0026selected_trusts=RV3,RP4,RP6,G6V2S,RAL,RAN,RKE,RRV\\u0026hide_nhse=true\\u0026hide_molecule=true\\u0026production=true\"} -->\n<p class=\"wp-block-create-block-kme-embed\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/kme-embed -->\n\n<!-- wp:create-block/todo-list {\"text\":\"South East England - select and compare\"} -->\n<p class=\"wp-block-create-block-todo-list\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/todo-list -->\n\n<!-- wp:create-block/kme-embed {\"iframe_url\":\"https://kme.sps.direct/grouped_by_trust/Adoption/?selected_tab=graph\\u0026selected_molecule=nintedanib\\u0026selected_nhse=south_east\\u0026selected_ics=buckinghamshire_oxfordshire_and_berkshire_west\\u0026selected_trusts=RXQ,RNU,RTH,RHW\\u0026hide_nhse=true\\u0026hide_molecule=true\\u0026production=true\"} -->\n<p class=\"wp-block-create-block-kme-embed\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/kme-embed -->\n\n<!-- wp:create-block/todo-list {\"text\":\"South West England - select and compare\"} -->\n<p class=\"wp-block-create-block-todo-list\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/todo-list -->\n\n<!-- wp:create-block/kme-embed {\"iframe_url\":\"https://kme.sps.direct/grouped_by_trust/Adoption/?selected_tab=graph\\u0026selected_molecule=nintedanib\\u0026selected_nhse=south_west\\u0026selected_ics=bath_and_north_east_somerset_swindon_and_wiltshire\\u0026selected_trusts=RVN,RN3,RD1,RNZ\\u0026hide_nhse=true\\u0026hide_molecule=true\\u0026production=true\"} -->\n<p class=\"wp-block-create-block-kme-embed\">Todo List – hello from the saved content!</p>\n<!-- /wp:create-block/kme-embed -->"
+        }
+    ],
+    "archives": [],
+    "content_sha256": "d3ff9262af531d4e3f491117f77e14254652bec81c49d32910c7d3cf508fcfc6"
+}

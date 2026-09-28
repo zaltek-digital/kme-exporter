@@ -1,0 +1,124 @@
+{
+    "source_id": 9470,
+    "type": "page",
+    "status": "publish",
+    "slug": "nintedanib",
+    "title": "Nintedanib",
+    "parent": null,
+    "menu_order": 0,
+    "url_path": "/nintedanib/",
+    "link": "https://kme.test/nintedanib/",
+    "template": "",
+    "content_raw": "",
+    "excerpt": "",
+    "date_gmt": "2026-06-11T08:45:43+00:00",
+    "modified_gmt": "2026-06-11T08:45:43+00:00",
+    "author": {
+        "login": "author-404",
+        "email": "author-404@example.invalid"
+    },
+    "featured_media": null,
+    "attachments": [],
+    "meta": {},
+    "acf": {
+        "blocks": [
+            {
+                "type": "collection",
+                "block_title": "Cost per DDD and monthly expenditure",
+                "appearance": "cards",
+                "layout": "2over4",
+                "automatic_navigation": 0,
+                "text": "",
+                "pinned": [
+                    {
+                        "list_type": "post",
+                        "post": [
+                            9479
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": null,
+                        "description": ""
+                    },
+                    {
+                        "list_type": "post",
+                        "post": [
+                            9482
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": null,
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "type": "collection",
+                "block_title": "Adoption curve",
+                "appearance": "cards",
+                "layout": "2over4",
+                "automatic_navigation": 0,
+                "text": "",
+                "pinned": [
+                    {
+                        "list_type": "post",
+                        "post": [
+                            9481
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": null,
+                        "description": ""
+                    },
+                    {
+                        "list_type": "post",
+                        "post": [
+                            9480
+                        ],
+                        "position": "0",
+                        "list_title": "",
+                        "title_link": null,
+                        "description": ""
+                    }
+                ]
+            }
+        ],
+        "change_history": false,
+        "publish_date_hidden": "0",
+        "summary": "Compare cost per cost per dose, monthly expenditure and performance as percentage adoption across regions, ICSs, and Trusts in England for nintedanib.",
+        "summary_hidden": "0"
+    },
+    "terms": {},
+    "original_post_id": null,
+    "embeds": [],
+    "links": [],
+    "blocks_used": {},
+    "presets_used": [],
+    "rendered": {},
+    "revisions": [
+        {
+            "revision_id": 9471,
+            "date_gmt": "2026-06-09T09:56:16+00:00",
+            "author": {
+                "login": "author-404",
+                "email": "author-404@example.invalid"
+            },
+            "title": "Nintedanib",
+            "excerpt": "",
+            "content_raw": ""
+        },
+        {
+            "revision_id": 9491,
+            "date_gmt": "2026-06-11T08:45:43+00:00",
+            "author": {
+                "login": "author-404",
+                "email": "author-404@example.invalid"
+            },
+            "title": "Nintedanib",
+            "excerpt": "",
+            "content_raw": ""
+        }
+    ],
+    "archives": [],
+    "content_sha256": "06315b6cd560c678e392d422417e60cf1730c9bf88b3ffe6446c58b647b187e3"
+}

@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/zaltek-digital/kme-exporter/schema/menus.schema.json",
+  "title": "KME export menus (menus.json)",
+  "type": "object",
+  "required": [
+    "locations",
+    "menus"
+  ],
+  "properties": {
+    "locations": {
+      "type": "object",
+      "description": "Theme menu location => menu ID.",
+      "additionalProperties": {
+        "type": "integer"
+      }
+    },
+    "menus": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "slug",
+          "items"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "parent",
+                "order",
+                "title",
+                "url",
+                "url_path",
+                "type",
+                "object",
+                "object_id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "parent": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "description": "Menu item ID of the parent item."
+                },
+                "order": {
+                  "type": "integer"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "url_path": {
+                  "type": "string",
+                  "description": "Path when the URL is on the KME site, otherwise empty."
+                },
+                "type": {
+                  "type": "string",
+                  "description": "post_type, taxonomy or custom."
+                },
+                "object": {
+                  "type": "string"
+                },
+                "object_id": {
+                  "type": "integer",
+                  "description": "Source ID of the linked item when type is post_type."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
