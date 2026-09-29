@@ -40,6 +40,14 @@
             "omalizumab"
         ]
     },
+    "term_names": {
+        "category": {
+            "adoption-curve-charts": "Adoption curve charts"
+        },
+        "post_tag": {
+            "omalizumab": "Omalizumab"
+        }
+    },
     "original_post_id": null,
     "embeds": [
         {
@@ -121,5 +129,5 @@
         }
     ],
     "archives": [],
-    "content_sha256": "d45f1d76d14d1b00b839edafa735f5f60ce2f821f69661b0da9a14691f52ec82"
+    "content_sha256": "a92e1924d2af383728720753ad77127b22bb3126d12c4bab70a6f48ea9b0ceb4"
 }

@@ -137,6 +137,16 @@
         }
       }
     },
+    "term_names": {
+      "type": "object",
+      "description": "Since 1.1. Display names of the terms in `terms`, keyed by taxonomy then slug.",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "string"
+        }
+      }
+    },
     "original_post_id": {
       "type": [
         "integer",

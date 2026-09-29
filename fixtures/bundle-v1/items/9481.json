@@ -40,6 +40,14 @@
             "nintedanib"
         ]
     },
+    "term_names": {
+        "category": {
+            "adoption-curve-charts": "Adoption curve charts"
+        },
+        "post_tag": {
+            "nintedanib": "Nintedanib"
+        }
+    },
     "original_post_id": null,
     "embeds": [
         {
@@ -110,5 +118,5 @@
         }
     ],
     "archives": [],
-    "content_sha256": "d3ff9262af531d4e3f491117f77e14254652bec81c49d32910c7d3cf508fcfc6"
+    "content_sha256": "e4b650e35c1a4e305d0b57ec6a10508215366533a27a3a2298b865e835e72d2d"
 }

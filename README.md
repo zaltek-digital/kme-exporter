@@ -3,7 +3,7 @@ Contributors: zaltek
 Requires at least: 6.4
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 0.1.0
+Stable tag: 0.2.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -151,6 +151,10 @@ In development. Design decisions are recorded in the KME → SPS2 build spec. Ro
 local → UAT → prod.
 
 == Changelog ==
+
+= 0.2.0 =
+* Bundle format 1.1: each item carries `term_names`, the display name of each of its terms, so
+  SPS2 can show a report's topics as KME does. Optional, so SPS2 still reads 1.0 bundles.
 
 = 0.1.0 =
 * First version, matching ndo-exporter 0.2.0: the "KME" option on Tools → Export with a table

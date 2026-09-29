@@ -22,6 +22,7 @@
     "meta": {},
     "acf": {},
     "terms": {},
+    "term_names": {},
     "original_post_id": null,
     "embeds": [],
     "links": [],
@@ -30,5 +31,5 @@
     "rendered": {},
     "revisions": [],
     "archives": [],
-    "content_sha256": "833fc01a82bab8ff0450188dadc90cbb8110a43de7ea5c7ee178b8843cdde201"
+    "content_sha256": "64d7b1a1a0efa00850e3fb2abb5e62edb382f87a66bb9a66e35620c66f8ccadd"
 }

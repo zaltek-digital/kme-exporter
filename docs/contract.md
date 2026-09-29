@@ -5,7 +5,7 @@ produces and SPS2's `kme-import` module consumes. **They are the source of truth
 code and this document disagree, one of them has a bug.
 
 - **Identifier:** `schema: "kme-export"`
-- **Version:** `schema_version: "1.0"`, which is separate from the plugin version.
+- **Version:** `schema_version: "1.1"`, which is separate from the plugin version.
   - A **minor** bump (`1.1`) only adds optional fields. Importers must ignore fields they
     don't know, and must leave a target value alone when an optional field is absent.
   - A **major** bump (`2.0`) is breaking. SPS2 refuses any major version it doesn't support.
@@ -73,6 +73,7 @@ is the importer's job, done in SPS2's import map.
 | `meta` | `{key: value[]}` | Values are **always lists**, because a key can hold several rows. Includes every non-protected key, plus `_nhs_*` (display settings: hero, breadcrumbs, sidebar …), `_members_*` (access rules), `_thumbnail_id` and `_wp_attachment_image_alt`. |
 | `acf` | `{field: value}` | ACF values by **field name**, unformatted: relationships are lists of `source_id`s, dates are `Ymd` strings, wysiwyg is the saved HTML, and repeater rows are keyed by sub-field name. The raw ACF meta rows (`blocks_0_type`, `_blocks_0_type` …) are left out of `meta`. |
 | `terms` | `{taxonomy: slug[]}` | |
+| `term_names` | `{taxonomy: {slug: name}}` | *Since 1.1.* The display name of each term in `terms`. Importers must cope with it missing (a 1.0 bundle). |
 | `original_post_id` | int \| null | For a pending "Ready for Live" copy, the live post it will replace. `null` otherwise. |
 | `embeds` | object[] | See below |
 | `links` | string[] | Unique internal hrefs: relative, or pointing at the KME host |
@@ -162,7 +163,7 @@ are `null`, and there's no file in `files/`.
 
 `content_sha256` is a SHA-256 over the fields the importer writes:
 - `type`, `status`, `slug`, `title`, `parent`, `menu_order`, `template`
-- `content_raw`, `excerpt`, `featured_media`, `meta`, `acf`, `terms`, `original_post_id`
+- `content_raw`, `excerpt`, `featured_media`, `meta`, `acf`, `terms`, `term_names`, `original_post_id`
 - the lists of revision IDs and archive IDs.
 
 Presets have their own `sha256` in `options.json`.

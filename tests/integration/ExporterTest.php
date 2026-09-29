@@ -496,6 +496,21 @@ class ExporterTest extends WP_UnitTestCase {
 	}
 
 	/**
+	 * Each term's display name travels with its slug.
+	 */
+	public function test_term_names_are_exported(): void {
+		$cat = self::factory()->category->create( array( 'name' => 'Progress charts', 'slug' => 'progress-chars' ) );
+		$id  = self::factory()->post->create();
+		wp_set_post_categories( $id, array( $cat ) );
+		wp_set_post_tags( $id, array( 'East of England' ) );
+
+		$item = ( new KME_Exporter() )->item( get_post( $id ) );
+
+		$this->assertSame( 'Progress charts', $item['term_names']['category']['progress-chars'] );
+		$this->assertSame( 'East of England', $item['term_names']['post_tag']['east-of-england'] );
+	}
+
+	/**
 	 * Without ACF (as in this test install) there are no presets and no ACF values, and the
 	 * bundle is still valid.
 	 */

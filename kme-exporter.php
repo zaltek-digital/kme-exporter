@@ -3,7 +3,7 @@
  * Plugin Name:       KME Exporter
  * Plugin URI:        https://github.com/zaltek-digital/kme-exporter
  * Description:       Packages the KME site's content (pages, report posts, their ACF fields, revisions and archived versions, preset texts, media, menus and authors) into a single bundle for manual import into SPS2. Read-only: it never changes content.
- * Version:           0.1.0
+ * Version:           0.2.0
  * Requires at least: 6.4
  * Requires PHP:      8.1
  * Author:            Zaltek Digital
@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'KME_EXPORT_VERSION', '0.1.0' );
+define( 'KME_EXPORT_VERSION', '0.2.0' );
 define( 'KME_EXPORT_FILE', __FILE__ );
 define( 'KME_EXPORT_DIR', plugin_dir_path( __FILE__ ) );
 

@@ -1,11 +1,11 @@
 {
     "schema": "kme-export",
-    "schema_version": "1.0",
+    "schema_version": "1.1",
     "generator": {
         "name": "kme-exporter",
-        "version": "0.1.0"
+        "version": "0.2.0"
     },
-    "generated_at": "2026-09-28T14:50:05+00:00",
+    "generated_at": "2026-09-29T11:43:02+00:00",
     "site": {
         "name": "Key Molecules Expenditure",
         "home": "https://kme.test/",
@@ -46,7 +46,7 @@
             "status": "publish",
             "parent": null,
             "modified_gmt": "2026-06-11T08:46:34+00:00",
-            "content_sha256": "f4538eafe1a0ba9dcf0c6a166a77f0c9ef87e53965bbeea02176332922002fb6"
+            "content_sha256": "d874640495bd0f7ebac2efdcdac76b94b55d035b2d5b0806176dfbbd94bf5d52"
         },
         {
             "source_id": 1561,
@@ -54,7 +54,7 @@
             "status": "inherit",
             "parent": 1496,
             "modified_gmt": "2024-10-24T12:56:11+00:00",
-            "content_sha256": "833fc01a82bab8ff0450188dadc90cbb8110a43de7ea5c7ee178b8843cdde201"
+            "content_sha256": "64d7b1a1a0efa00850e3fb2abb5e62edb382f87a66bb9a66e35620c66f8ccadd"
         },
         {
             "source_id": 2025,
@@ -62,7 +62,7 @@
             "status": "publish",
             "parent": null,
             "modified_gmt": "2024-12-05T11:53:16+00:00",
-            "content_sha256": "7bdb20b8ca1de7ca5d93e56e009d7befff3c64939c45a3a7523288caa7eec2b0"
+            "content_sha256": "8c90e1ba681db72572b72f4c1288ab0bf93f98e222a546953794484bf18a69eb"
         },
         {
             "source_id": 2468,
@@ -70,7 +70,7 @@
             "status": "publish",
             "parent": null,
             "modified_gmt": "2026-02-25T11:12:02+00:00",
-            "content_sha256": "227010af2a1f90fbbd92cb5c23e39ff801f02c80795187615c13bcb102641cbf"
+            "content_sha256": "0cece10e5b36794ace9d90972ba94633695e15346c7fcf3a28ed42c9ca68cc4a"
         },
         {
             "source_id": 4911,
@@ -78,7 +78,7 @@
             "status": "publish",
             "parent": null,
             "modified_gmt": "2026-01-05T14:52:56+00:00",
-            "content_sha256": "d5e43e9f9cea3034eb5ab08fd7929a830f716eb609600fc3cfd2be4cd6d78b99"
+            "content_sha256": "1633841d49ad999502110c47e88b4b814dfb7c1cf72eda41e6ff9de90babd904"
         },
         {
             "source_id": 8542,
@@ -86,7 +86,7 @@
             "status": "publish",
             "parent": null,
             "modified_gmt": "2026-06-10T08:15:01+00:00",
-            "content_sha256": "6cbee4f65885df8d6c2d7c4150bf05806f670991bbb404fb7b1b95fdd14eb45a"
+            "content_sha256": "8ace718200dd19aec9d6aa80494e474f37f6ce12ffbff04807ebd46f35599e22"
         },
         {
             "source_id": 9147,
@@ -94,7 +94,7 @@
             "status": "publish",
             "parent": null,
             "modified_gmt": "2026-02-12T13:45:38+00:00",
-            "content_sha256": "04f5116cb91661df0cfdd1ac45caa4d88288e15949b504b519d38155da959a96"
+            "content_sha256": "fe416e1287af5970302da22b34502b3768f6316c8eb7c2865c56bc713b339bfe"
         },
         {
             "source_id": 9241,
@@ -102,7 +102,7 @@
             "status": "publish",
             "parent": null,
             "modified_gmt": "2026-03-18T09:42:10+00:00",
-            "content_sha256": "d173a2faa274540dd705ca22a8a1abe1a35cf4eb96540b036641760ff5a5e21e"
+            "content_sha256": "83dc215bf69d127be64321b2df48aa3f115a135a8a0e78cdce90263f89c50bd0"
         },
         {
             "source_id": 9306,
@@ -110,7 +110,7 @@
             "status": "publish",
             "parent": null,
             "modified_gmt": "2026-05-12T15:10:31+00:00",
-            "content_sha256": "d45f1d76d14d1b00b839edafa735f5f60ce2f821f69661b0da9a14691f52ec82"
+            "content_sha256": "a92e1924d2af383728720753ad77127b22bb3126d12c4bab70a6f48ea9b0ceb4"
         },
         {
             "source_id": 9470,
@@ -118,7 +118,7 @@
             "status": "publish",
             "parent": null,
             "modified_gmt": "2026-06-11T08:45:43+00:00",
-            "content_sha256": "06315b6cd560c678e392d422417e60cf1730c9bf88b3ffe6446c58b647b187e3"
+            "content_sha256": "48c3926a0668b52e633a45fcaacbd7de02a81bcabef448d670c1171c7afc6477"
         },
         {
             "source_id": 9481,
@@ -126,7 +126,7 @@
             "status": "publish",
             "parent": null,
             "modified_gmt": "2026-06-11T08:42:23+00:00",
-            "content_sha256": "d3ff9262af531d4e3f491117f77e14254652bec81c49d32910c7d3cf508fcfc6"
+            "content_sha256": "e4b650e35c1a4e305d0b57ec6a10508215366533a27a3a2298b865e835e72d2d"
         }
     ],
     "orphan_archives": [
