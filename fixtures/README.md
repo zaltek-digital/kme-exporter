@@ -1,11 +1,11 @@
 # Contract fixture: `bundle-v1/`
 
-A small, real KME export bundle (`schema_version` 1.0) in unzipped form. SPS2's importer
+A small, real KME export bundle (`schema_version` 1.1) in unzipped form. SPS2's importer
 tests use a copy of it (`sps2/tests/fixtures/kme-bundle-v1/`), so the two repos are tested
 against the same data.
 
 It was generated from the local copy of KME (`kme.test`, content to 2026-08-13) on
-2026-09-28 with:
+2026-09-29 (exporter 0.2.0) with:
 
     wp kme-export build --out=fixtures/bundle-v1 --dir --anonymise-authors \
       --include=1496,2025,2468,4911,8542,9147,9241,9306,9470,9481 --max-revisions=2

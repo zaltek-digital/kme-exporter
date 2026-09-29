@@ -47,6 +47,21 @@
             "the-midlands"
         ]
     },
+    "term_names": {
+        "category": {
+            "progress-chars": "Progress charts"
+        },
+        "post_tag": {
+            "london": "London",
+            "national": "National",
+            "north-east-england-and-yorkshire": "North East England and Yorkshire",
+            "north-west-england": "North West England",
+            "south-east-england": "South East England",
+            "south-west-england": "South West England",
+            "the-east-of-england": "The East of England",
+            "the-midlands": "The Midlands"
+        }
+    },
     "original_post_id": null,
     "embeds": [
         {
@@ -303,5 +318,5 @@
             }
         }
     ],
-    "content_sha256": "6cbee4f65885df8d6c2d7c4150bf05806f670991bbb404fb7b1b95fdd14eb45a"
+    "content_sha256": "8ace718200dd19aec9d6aa80494e474f37f6ce12ffbff04807ebd46f35599e22"
 }

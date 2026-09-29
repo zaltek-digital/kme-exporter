@@ -29,7 +29,7 @@ class KME_Exporter {
 	/**
 	 * Contract version. Minor bumps only add optional fields; a major bump is breaking.
 	 */
-	public const SCHEMA_VERSION = '1.0';
+	public const SCHEMA_VERSION = '1.1';
 
 	/**
 	 * Post types that are exported as items.
@@ -308,6 +308,7 @@ class KME_Exporter {
 			'meta'             => $this->meta( $post->ID ),
 			'acf'              => $this->acf( $post->ID ),
 			'terms'            => $this->terms( $post ),
+			'term_names'       => $this->term_names( $post ),
 			'original_post_id' => $this->original_post_id( $post ),
 			'embeds'           => $this->embeds( $blocks ),
 			'links'            => $this->links( $post->post_content ),
@@ -322,7 +323,7 @@ class KME_Exporter {
 
 		// Maps must encode as JSON objects even when empty ({} not []), so the
 		// contract's types hold for every item.
-		foreach ( array( 'meta', 'acf', 'terms', 'blocks_used', 'rendered' ) as $map ) {
+		foreach ( array( 'meta', 'acf', 'terms', 'term_names', 'blocks_used', 'rendered' ) as $map ) {
 			$item[ $map ] = $this->as_map( $item[ $map ] );
 		}
 
@@ -339,7 +340,7 @@ class KME_Exporter {
 	public function content_hash( array $item ): string {
 		$fields                 = array_intersect_key(
 			$item,
-			array_flip( array( 'type', 'status', 'slug', 'title', 'parent', 'menu_order', 'template', 'content_raw', 'excerpt', 'featured_media', 'meta', 'acf', 'terms', 'original_post_id' ) )
+			array_flip( array( 'type', 'status', 'slug', 'title', 'parent', 'menu_order', 'template', 'content_raw', 'excerpt', 'featured_media', 'meta', 'acf', 'terms', 'term_names', 'original_post_id' ) )
 		);
 		$fields['revision_ids'] = array_column( $item['revisions'] ?? array(), 'revision_id' );
 		$fields['archive_ids']  = array_column( $item['archives'] ?? array(), 'archive_id' );
@@ -953,6 +954,33 @@ class KME_Exporter {
 		$walk( $blocks );
 
 		return array_keys( $used );
+	}
+
+	/**
+	 * The display name of each term in `terms`, by taxonomy then slug. Slugs alone can't be
+	 * turned back into names (a slug may carry an old typo, or differ in wording), and the
+	 * names are what KME shows as the report's topics.
+	 *
+	 * @param WP_Post $post The post.
+	 * @return array<string, array<string, string>>
+	 */
+	private function term_names( WP_Post $post ): array {
+		$out = array();
+		foreach ( get_object_taxonomies( $post->post_type ) as $taxonomy ) {
+			$terms = get_the_terms( $post, $taxonomy );
+			if ( ! is_array( $terms ) || array() === $terms ) {
+				continue;
+			}
+			$names = array();
+			foreach ( $terms as $term ) {
+				$names[ $term->slug ] = html_entity_decode( $term->name, ENT_QUOTES | ENT_HTML5, 'UTF-8' );
+			}
+			ksort( $names );
+			$out[ $taxonomy ] = $names;
+		}
+		ksort( $out );
+
+		return $out;
 	}
 
 	/**
